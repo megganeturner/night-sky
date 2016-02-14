@@ -1,0 +1,154 @@
+#container {
+   width: 50000px;
+}
+#top {
+   background-size: cover;
+   height: 100vh;
+   width: 100vw;
+   margin: -10px 0 0 -10px;
+   padding-bottom: 2px;
+   background: #CD9EE8;
+   background: -webkit-linear-gradient(-100deg, #0F122E, #0B0E27);
+   background: -o-linear-gradient(-100deg, #0F122E, #0B0E27);
+   background: -moz-linear-gradient(-100deg, #0F122E, #0B0E27);
+   background: linear-gradient(-135deg, #0F122E, #0B0E27);
+   float: left;
+}
+h1,
+h2 {
+   font-family: inconsolata;
+   color: #ffffff;
+   display: flex;
+   justify-content: center;
+   font-weight: normal;
+   text-align: center;
+}
+p {
+   font-family: inconsolata;
+   font-weight: normal;
+   color: #ffffff;
+   display: flex;
+   justify-content: center;
+   width: 400px;
+   margin: 30px auto;
+   padding-top: 200px;
+}
+#gemini {
+   background-size: cover;
+   height: 100vh;
+   width: 100vw;
+   margin: -10px 0;
+   padding-bottom: 2px;
+   background: #CD9EE8;
+   background: -webkit-linear-gradient(-100deg, #0B0E27, #0F122E);
+   background: -o-linear-gradient(-100deg, #0B0E27, #0F122E);
+   background: -moz-linear-gradient(-100deg, #0B0E27, #0F122E);
+   background: linear-gradient(-135deg, #0B0E27, #0F122E);
+   float: left;
+}
+#gemini .star {
+   height: 5px;
+   width: 5px;
+   border-radius: 3px;
+   background-color: #ffffff;
+}
+#gemini .star.first {
+   position: relative;
+   left: 30px;
+   top: 50px;
+}
+#gemini .star.second {
+   position: relative;
+   left: -70px;
+   top: 80px;
+}
+#gemini .star.third {
+   position: relative;
+   left: -10px;
+   top: 100px;
+}
+#gemini .star.fourth {
+   position: relative;
+   left: -130px;
+   top: 120px;
+}
+#gemini .star.fifth {
+   position: relative;
+   left: -60px;
+   top: 125px;
+}
+#gemini .star.sixth {
+   position: relative;
+   left: -100px;
+   top: 130px;
+}
+#gemini .star.seventh {
+   position: relative;
+   left: -130px;
+   top: 160px;
+}
+#gemini .star.eighth {
+   position: relative;
+   left: 80px;
+   top: 160px;
+}
+#gemini .star.ninth {
+   position: relative;
+   left: 130px;
+   top: 180px;
+}
+#gemini .star.tenth {
+   position: relative;
+   left: 150px;
+   top: 170px;
+}
+#gemini .star.eleventh {
+   position: relative;
+   left: -50px;
+   top: 190px;
+}
+#gemini .star.twelfth {
+   position: relative;
+   top: 210px;
+}
+#gemini .star.thirteenth {
+   position: relative;
+   left: 110px;
+   top: 210px;
+}
+#gemini .star.fourteenth {
+   position: relative;
+   left: 100px;
+   top: 240px;
+}
+#gemini .star.fifteenth {
+   position: relative;
+   left: -40px;
+   top: 245px;
+}
+#gemini .star.sixteenth {
+   position: relative;
+   left: 70px;
+   top: 280px;
+}
+
+#aurora {
+   background-size: cover;
+   height: 100vh;
+   width: 100vw;
+   margin: -10px 0;
+   padding-bottom: 2px;
+   background: #CD9EE8;
+   background: -webkit-linear-gradient(-100deg, #0F122E, #0B0E27);
+   background: -o-linear-gradient(-100deg, #0F122E, #0B0E27);
+   background: -moz-linear-gradient(-100deg, #0F122E, #0B0E27);
+   background: linear-gradient(-135deg, #F568FF, #62EEF3, #51FFA2);
+   float: left;
+}
+
+.constellation {
+   display: flex;
+   justify-content: center;
+   margin: 0;
+   padding: 0;
+}
