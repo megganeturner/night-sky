@@ -43,6 +43,7 @@ p {
    width: 5px;
    border-radius: 3px;
    background-color: #ffffff;
+   position: relative;
 }
 
 
@@ -65,17 +66,14 @@ p {
    top: 250px;
 }
 #aries .star.second {
-   position: relative;
    left: 75px;
    top: 175px;
 }
 #aries .star.third {
-   position: relative;
    left: 140px;
    top: 240px;
 }
 #aries .star.fourth {
-   position: relative;
    left: 142px;
    top: 270px;
 }
@@ -96,57 +94,46 @@ p {
    float: left;
 }
 #taurus .star.first {
-   position: relative;
    left: 200px;
    top: 90px;
 }
 #taurus .star.second {
-   position: relative;
    left: 185px;
    top: 95px;
 }
 #taurus .star.third {
-   position: relative;
    left: 100px;
    top: 140px;
 }
 #taurus .star.fourth {
-   position: relative;
    left: 40px;
    top: 160px;
 }
 #taurus .star.fifth {
-   position: relative;
    left: 10px;
    top: 175px;
 }
 #taurus .star.sixth {
-   position: relative;
    left: -10px;
    top: 150px;
 }
 #taurus .star.seventh {
-   position: relative;
    left: -30px;
    top: 185px;
 }
 #taurus .star.eighth {
-   position: relative;
    left: -40px;
    top: 151px;
 }
 #taurus .star.ninth {
-   position: relative;
    left: -100px;
    top: 154px;
 }
 #taurus .star.tenth {
-   position: relative;
    left: -200px;
    top: 260px;
 }
 #taurus .star.eleventh {
-   position: relative;
    left: -240px;
    top: 185px;
 }
@@ -167,81 +154,65 @@ p {
    float: left;
 }
 #gemini .star.first {
-   position: relative;
    left: 30px;
    top: 50px;
 }
 #gemini .star.second {
-   position: relative;
    left: -70px;
    top: 80px;
 }
 #gemini .star.third {
-   position: relative;
    left: -10px;
    top: 100px;
 }
 #gemini .star.fourth {
-   position: relative;
    left: -130px;
    top: 120px;
 }
 #gemini .star.fifth {
-   position: relative;
    left: -60px;
    top: 125px;
 }
 #gemini .star.sixth {
-   position: relative;
    left: -100px;
    top: 130px;
 }
 #gemini .star.seventh {
-   position: relative;
    left: -130px;
    top: 160px;
 }
 #gemini .star.eighth {
-   position: relative;
    left: 80px;
    top: 160px;
 }
 #gemini .star.ninth {
-   position: relative;
    left: 130px;
    top: 180px;
 }
 #gemini .star.tenth {
-   position: relative;
    left: 150px;
    top: 170px;
 }
 #gemini .star.eleventh {
-   position: relative;
    left: -50px;
    top: 190px;
 }
 #gemini .star.twelfth {
-   position: relative;
    top: 210px;
 }
 #gemini .star.thirteenth {
-   position: relative;
    left: 110px;
    top: 210px;
 }
 #gemini .star.fourteenth {
-   position: relative;
    left: 100px;
    top: 240px;
 }
 #gemini .star.fifteenth {
-   position: relative;
    left: -40px;
    top: 245px;
 }
 #gemini .star.sixteenth {
-   position: relative;
    left: 70px;
    top: 280px;
 }
@@ -261,27 +232,22 @@ p {
    float: left;
 }
 #cancer .star.first {
-   position: relative;
    left: -15px;
    top: 60px;
 }
 #cancer .star.second {
-   position: relative;
    left: -5px;
    top: 150px;
 }
 #cancer .star.third {
-   position: relative;
    left: -15px;
    top: 180px;
 }
 #cancer .star.fourth {
-   position: relative;
    left: -60px;
    top: 250px;
 }
 #cancer .star.fifth {
-   position: relative;
    left: 50px;
    top: 280px;
 }
@@ -300,47 +266,38 @@ p {
    float: left;
 }
 #leo .star.first {
-   position: relative;
    left: 150px;
    top: 70px;
 }
 #leo .star.second {
-   position: relative;
    left: 170px;
    top: 90px;
 }
 #leo .star.third {
-   position: relative;
    left: 90px;
    top: 100px;
 }
 #leo .star.fourth {
-   position: relative;
    left: 80px;
    top: 135px;
 }
 #leo .star.fifth {
-   position: relative;
    left: -70px;
    top: 132px;
 }
 #leo .star.sixth {
-   position: relative;
    left: 120px;
    top: 170px;
 }
 #leo .star.seventh {
-   position: relative;
    left: -70px;
    top: 190px;
 }
 #leo .star.eighth {
-   position: relative;
    left: -170px;
    top: 200px;
 }
 #leo .star.ninth {
-   position: relative;
    left: 120px;
    top: 230px;
 }
@@ -359,47 +316,38 @@ p {
    float: left;
 }
 #virgo .star.first {
-   position: relative;
    left: -20px;
    top: 50px;
 }
 #virgo .star.second {
-   position: relative;
    left: -10px;
    top: 130px;
 }
 #virgo .star.third {
-   position: relative;
    left: 140px;
    top: 115px;
 }
 #virgo .star.fourth {
-   position: relative;
    left: 120px;
    top: 155px;
 }
 #virgo .star.fifth {
-   position: relative;
    left: 50px;
    top: 170px;
 }
 #virgo .star.sixth {
-   position: relative;
    left: 0;
    top: 180px;
 }
 #virgo .star.seventh {
-   position: relative;
    left: -150px;
    top: 180px;
 }
 #virgo .star.eighth {
-   position: relative;
    left: -100px;
    top: 200px;
 }
 #virgo .star.ninth {
-   position: relative;
    left: -140px;
    top: 250px;
 }
@@ -419,22 +367,18 @@ p {
    float: left;
 }
 #libra .star.first {
-   position: relative;
    left: -20px;
    top: 80px;
 }
 #libra .star.second {
-   position: relative;
    left: -80px;
    top: 150px;
 }
 #libra .star.third {
-   position: relative;
    left: 50px;
    top: 155px;
 }
 #libra .star.fourth {
-   position: relative;
    left: 0;
    top: 270px;
 }
@@ -454,82 +398,66 @@ p {
    float: left;
 }
 #scorpio .star.first {
-   position: relative;
    left: 140px;
    top: 30px;
 }
 #scorpio .star.second {
-   position: relative;
    left: 145px;
    top: 35px;
 }
 #scorpio .star.third {
-   position: relative;
    left: 145px;
    top: 60px;
 }
 #scorpio .star.fourth {
-   position: relative;
    left: 140px;
    top: 90px;
 }
 #scorpio .star.fifth {
-   position: relative;
    left: 130px;
    top: 120px;
 }
 #scorpio .star.sixth {
-   position: relative;
    left: 50px;
    top: 85px;
 }
 #scorpio .star.seventh {
-   position: relative;
    left: 30px;
    top: 100px;
 }
 #scorpio .star.eighth {
-   position: relative;
    left: -10px;
    top: 160px;
 }
 #scorpio .star.ninth {
-   position: relative;
    left: -25px;
    top: 200px;
 }
 #scorpio .star.tenth {
-   position: relative;
    left: -35px;
    top: 240px;
 }
 #scorpio .star.eleventh {
-   position: relative;
    left: -70px;
    top: 245px;
 }
 #scorpio .star.twelfth {
-   position: relative;
    left: -120px;
    top: 243px;
 }
 #scorpio .star.thirteenth {
-   position: relative;
    left: -150px;
    top: 215px;
 }
 #scorpio .star.fourteenth {
-   position: relative;
    left: -145px;
    top: 200px;
 }
 #scorpio .star.fifteenth {
-   position: relative;
    left: -135px;
    top: 170px;
 }
 #scorpio .star.sixteenth {
-   position: relative;
    left: -130px;
    top: 180px;
 }
@@ -548,102 +476,82 @@ p {
    float: left;
 }
 #sagittarius .star.first {
-   position: relative;
    left: -30px;
    top: 90px;
 }
 #sagittarius .star.second {
-   position: relative;
    left: -10px;
    top: 105px;
 }
 #sagittarius .star.third {
-   position: relative;
    left: -6px;
    top: 108px;
 }
 #sagittarius .star.fourth {
-   position: relative;
    left: -1px;
    top: 102px;
 }
 #sagittarius .star.fifth {
-   position: relative;
    left: 80px;
    top: 90px;
 }
 #sagittarius .star.sixth {
-   position: relative;
    left: 60px;
    top: 125px;
 }
 #sagittarius .star.seventh {
-   position: relative;
    left: 20px;
    top: 145px;
 }
 #sagittarius .star.eighth {
-   position: relative;
    left: 5px;
    top: 140px;
 }
 #sagittarius .star.ninth {
-   position: relative;
    left: 130px;
    top: 140px;
 }
 #sagittarius .star.tenth {
-   position: relative;
    left: 90px;
    top: 160px;
 }
 #sagittarius .star.eleventh {
-   position: relative;
    left: 60px;
    top: 158px;
 }
 #sagittarius .star.twelfth {
-   position: relative;
    left: 57px;
    top: 190px;
 }
 #sagittarius .star.thirteenth {
-   position: relative;
    left: 65px;
    top: 210px;
 }
 #sagittarius .star.fourteenth {
-   position: relative;
    left: -60px;
    top: 160px;
 }
 #sagittarius .star.fifteenth {
-   position: relative;
    left: -50px;
    top: 175px;
 }
 #sagittarius .star.sixteenth {
-   position: relative;
    left: -140px;
    top: 155px;
 }
 #sagittarius .star.seventeenth {
-   position: relative;
    left: -190px;
    top: 180px;
 }
 #sagittarius .star.eighteenth {
-   position: relative;
    left: -140px;
    top: 270px;
 }
 #sagittarius .star.nineteenth {
-   position: relative;
    left: -110px;
    top: 250px;
 }
 #sagittarius .star.twentieth {
-   position: relative;
    left: -100px;
    top: 273px;
 }
@@ -664,27 +572,22 @@ p {
    float: left;
 }
 #capricorn .star.first {
-   position: relative;
    left: -130px;
    top: 90px;
 }
 #capricorn .star.second {
-   position: relative;
    left: -120px;
    top: 93px;
 }
 #capricorn .star.third {
-   position: relative;
    left: -80px;
    top: 150px;
 }
 #capricorn .star.fourth {
-   position: relative;
    left: -75px;
    top: 93px;
 }
 #capricorn .star.fifth {
-   position: relative;
    left: -80px;
    top: 160px;
 }
@@ -694,37 +597,30 @@ p {
    top: 97px;
 }
 #capricorn .star.seventh {
-   position: relative;
    left: -10px;
    top: 130px;
 }
 #capricorn .star.eighth {
-   position: relative;
    left: -20px;
    top: 210px;
 }
 #capricorn .star.ninth {
-   position: relative;
    left: 30px;
    top: 230px;
 }
 #capricorn .star.tenth {
-   position: relative;
    left: 40px;
    top: 210px;
 }
 #capricorn .star.eleventh {
-   position: relative;
    left: 80px;
    top: 110px;
 }
 #capricorn .star.twelfth {
-   position: relative;
    left: 100px;
    top: 80px;
 }
 #capricorn .star.thirteenth {
-   position: relative;
    left: 105px;
    top: 60px;
 }
@@ -743,67 +639,54 @@ p {
    float: left;
 }
 #aquarius .star.first {
-   position: relative;
    left: -100px;
    top: 190px;
 }
 #aquarius .star.second {
-   position: relative;
    left: -70px;
    top: 185px;
 }
 #aquarius .star.third {
-   position: relative;
    left: -70px;
    top: 120px;
 }
 #aquarius .star.fourth {
-   position: relative;
    left: -65px;
    top: 110px;
 }
 #aquarius .star.fifth {
-   position: relative;
    left: -70px;
    top: 300px;
 }
 #aquarius .star.sixth {
-   position: relative;
    left: -60px;
    top: 240px;
 }
 #aquarius .star.seventh {
-   position: relative;
    left: -75px;
    top: 95px;
 }
 #aquarius .star.eighth {
-   position: relative;
    left: -60px;
    top: 120px;
 }
 #aquarius .star.ninth {
-   position: relative;
    left: -30px;
    top: 90px;
 }
 #aquarius .star.tenth {
-   position: relative;
    left: -30px;
    top: 165px;
 }
 #aquarius .star.eleventh {
-   position: relative;
    left: 0;
    top: 210px;
 }
 #aquarius .star.twelfth {
-   position: relative;
    left: 60px;
    top: 120px;
 }
 #aquarius .star.thirteenth {
-   position: relative;
    left: 130px;
    top: 130px;
 }
@@ -822,82 +705,66 @@ p {
    float: left;
 }
 #pisces .star.first {
-   position: relative;
    left: -50px;
    top: 90px;
 }
 #pisces .star.second {
-   position: relative;
    left: -65px;
    top: 110px;
 }
 #pisces .star.third {
-   position: relative;
    left: -50px;
    top: 120px;
 }
 #pisces .star.fourth {
-   position: relative;
    left: -40px;
    top: 135px;
 }
 #pisces .star.fifth {
-   position: relative;
    left: -55px;
    top: 190px;
 }
 #pisces .star.sixth {
-   position: relative;
    left: -70px;
    top: 240px;
 }
 #pisces .star.seventh {
-   position: relative;
    left: -100px;
    top: 270px;
 }
 #pisces .star.eighth {
-   position: relative;
    left: -70px;
    top: 260px;
 }
 #pisces .star.ninth {
-   position: relative;
    left: -10px;
    top: 230px;
 }
 #pisces .star.tenth {
-   position: relative;
    left: 0;
    top: 231px;
 }
 #pisces .star.eleventh {
-   position: relative;
    left: 50px;
    top: 220px;
 }
 #pisces .star.twelfth {
-   position: relative;
    left: 70px;
    top: 215px;
 }
 #pisces .star.thirteenth {
-   position: relative;
    left: 80px;
    top: 205px;
 }
 #pisces .star.fourteenth {
-   position: relative;
    left: 100px;
    top: 210px;
 }
 #pisces .star.fifteenth {
-   position: relative;
    left: 90px;
    top: 230px;
 }
 #pisces .star.sixteenth {
-   position: relative;
    left: 55px;
    top: 235px;
 }
@@ -905,10 +772,19 @@ p {
 
 
 
-
-
-
-
+@-webkit-keyframes aurora {
+   0% {background-color: #FC0025;}
+   10% {background-color: #FC68D1;}
+   20% {background-color: #CB99FC;}
+   30% {background-color: #21E7FC;}
+   40% {background-color: #00F1C8;}
+   50% {background-color: #00F146;}
+   60% {background-color: #00F1C8;}
+   70% {background-color: #21E7FC;}
+   80% {background-color: #CB99FC;}
+   90% {background-color: #FC68D1;}
+   100% {background-color: #FC0025;}
+}
 
 #aurora {
    background-size: cover;
@@ -916,12 +792,10 @@ p {
    width: 100vw;
    margin: -10px 0;
    padding-bottom: 2px;
-   background: #CD9EE8;
-   background: -webkit-linear-gradient(-100deg, #0F122E, #0B0E27);
-   background: -o-linear-gradient(-100deg, #0F122E, #0B0E27);
-   background: -moz-linear-gradient(-100deg, #0F122E, #0B0E27);
-   background: linear-gradient(-135deg, #F568FF, #62EEF3, #51FFA2);
    float: left;
+   animation-name: aurora;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
 }
 
 .constellation {
@@ -935,6 +809,34 @@ p {
 }
 
 
+/* #aurora {
+   background: linear-gradient (306deg,#F12900, #F13D4B, #F160DB, #D060F1, #4C6FF1, #4BEAF1, #38F1BD, #1CF13E);
+   background-size: 1600% 1600%;
+   height: 100vh;
+   width: 100vw;
+   margin: -10px 0;
+   padding-bottom: 2px;
+   float: left;
+   -webkit-animation: AnimationName 14s ease infinite;
+   -moz-animation: AnimationName 14s ease infinite;
+   -o-animation: AnimationName 14s ease infinite;
+   animation: AnimationName 14s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+   0%{background-position:0% 13%}
+   50%{background-position:100% 88%}
+   100%{background-position: 0% 13%}
+}
+@-moz-keyframes AnimationName {
+   0%{background-position:0% 13%}
+   50%{background-position:100% 88%}
+   100%{background-position: 0% 13%}
+}
+@keyframes AnimationName {
+   0%{background-position:0% 13%}
+   50%{background-position:100% 88%}
+   100%{background-position: 0% 13%}
+} */
 
 
 
