@@ -798,6 +798,8 @@ p {
    animation-iteration-count: infinite;
 }
 
+
+
 .constellation {
    display: flex;
    justify-content: center;
@@ -807,36 +809,6 @@ p {
 .info p {
    padding: 0;
 }
-
-
-/* #aurora {
-   background: linear-gradient (306deg,#F12900, #F13D4B, #F160DB, #D060F1, #4C6FF1, #4BEAF1, #38F1BD, #1CF13E);
-   background-size: 1600% 1600%;
-   height: 100vh;
-   width: 100vw;
-   margin: -10px 0;
-   padding-bottom: 2px;
-   float: left;
-   -webkit-animation: AnimationName 14s ease infinite;
-   -moz-animation: AnimationName 14s ease infinite;
-   -o-animation: AnimationName 14s ease infinite;
-   animation: AnimationName 14s ease infinite;
-}
-@-webkit-keyframes AnimationName {
-   0%{background-position:0% 13%}
-   50%{background-position:100% 88%}
-   100%{background-position: 0% 13%}
-}
-@-moz-keyframes AnimationName {
-   0%{background-position:0% 13%}
-   50%{background-position:100% 88%}
-   100%{background-position: 0% 13%}
-}
-@keyframes AnimationName {
-   0%{background-position:0% 13%}
-   50%{background-position:100% 88%}
-   100%{background-position: 0% 13%}
-} */
 
 
 
