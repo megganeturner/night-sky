@@ -78,6 +78,10 @@ p {
    left: 142px;
    top: 270px;
 }
+#aries .star.fifth {
+   left: -80px;
+   top: 130px;
+}
 
 
 
@@ -351,6 +355,14 @@ p {
 #virgo .star.ninth {
    left: -140px;
    top: 250px;
+}
+#virgo .star.tenth {
+   left: -45px;
+   top: 215px;
+}
+#virgo .star.eleventh {
+   left: -70px;
+   top: 270px;
 }
 
 
