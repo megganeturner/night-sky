@@ -16,7 +16,8 @@
 }
 h1,
 h2,
-h3 {
+h3,
+h4 {
    font-family: inconsolata;
    color: #ffffff;
    display: flex;
@@ -26,6 +27,11 @@ h3 {
 }
 h3 {
    font-weight: bold;
+}
+h4 {
+   font-weight: bold;
+   font-size: 20px;
+   justify-content: center;
 }
 p {
    font-family: inconsolata;
@@ -69,6 +75,10 @@ p {
 #aries .star.second {
    left: 75px;
    top: 175px;
+   height: 5px;
+   width: 5px;
+   border-radius: 3px;
+   box-shadow: 0 0 9px 1px #fff;
 }
 #aries .star.third {
    left: 140px;
@@ -105,10 +115,24 @@ td {
    font-family: inconsolata;
    color: #fff;
    font-weight: bold;
+   border-bottom: 1px solid white;
 }
 td + td {
    padding-left: 5px;
    font-weight: normal;
+}
+
+#hamal {
+   float: left;
+   width: 35vw;
+   height: 100vh;
+   margin: -10px 0;
+   padding-bottom: 2px;
+   background-color: rgba(11, 14, 39, 0.4);
+   display: none;
+}
+#hamal p {
+   width: 25vw;
 }
 
 
