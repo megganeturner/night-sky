@@ -33,7 +33,7 @@ p {
    color: #ffffff;
    display: flex;
    justify-content: center;
-   width: 400px;
+   width: 60vw;
    margin: 30px auto;
    padding-top: 200px;
 }
@@ -83,6 +83,33 @@ p {
    top: 130px;
 }
 
+#botein {
+   float: left;
+   width: 35vw;
+   height: 100vh;
+   margin: -10px 0;
+   padding-bottom: 2px;
+   background-color: rgba(11, 14, 39, 0.4);
+   display: none;
+
+}
+#botein p {
+   width: 25vw;
+}
+
+table {
+   margin: 0 auto;
+   width: 25vw;
+}
+td {
+   font-family: inconsolata;
+   color: #fff;
+   font-weight: bold;
+}
+td + td {
+   padding-left: 5px;
+   font-weight: normal;
+}
 
 
 #taurus {
