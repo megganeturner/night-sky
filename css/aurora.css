@@ -1,0 +1,66 @@
+body {
+   width: 100vw;
+}
+h2 {
+   font-family: inconsolata;
+   color: #ffffff;
+   display: flex;
+   justify-content: center;
+   font-weight: normal;
+   text-align: center;
+   font-weight: bold;
+   padding-top: 40px;
+}
+
+p {
+   font-family: inconsolata;
+   font-weight: normal;
+   color: #ffffff;
+   display: flex;
+   margin: 0 auto;
+   width: 70%;
+   padding-top: 30px;
+}
+.content {
+   background-image: linear-gradient(#EC7CFC, #F5204E);
+   height: 100vh;
+   width: 100vw;
+   margin: -20px 0 0 -10px;
+}
+nav {
+   position: fixed;
+   top: 10px;
+   left: 10px;
+}
+nav a {
+   font-family: inconsolata;
+   font-weight: bold;
+   color:#FFF;
+   text-decoration: none;
+}
+.aurora {
+   height: 5000px;
+   width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
