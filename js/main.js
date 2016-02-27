@@ -1,5 +1,5 @@
 $(".botein").click(function(){
-   $("#starinfo").html("<h4>Botein</h4><p>Botein is a star in the northern constellation Aries. The name is derived from the Arabic word for 'belly'.</p><table><tr><td>Apparent Magnitude</td><td>4.349</td></tr><tr><td>Spectral type</td><td>K2 III</td></tr><tr><td>Mass</td><td>1.91 Mol</td></tr><tr><td>Luminosity</td><td>45</td></tr><tr><td>Distance from Earth</td><td>170ly / 52pc</td></tr><tr><td>Temperature</td><td>4810 K</td></tr></table>")
+   $("#starinfo").html("<p class='exit'>x</p><h4>Botein</h4><p>Botein is a star in the northern constellation Aries. The name is derived from the Arabic word for 'belly'.</p><table><tr><td>Apparent Magnitude</td><td>4.349</td></tr><tr><td>Spectral type</td><td>K2 III</td></tr><tr><td>Mass</td><td>1.91 Mol</td></tr><tr><td>Luminosity</td><td>45</td></tr><tr><td>Distance from Earth</td><td>170ly / 52pc</td></tr><tr><td>Temperature</td><td>4810 K</td></tr></table>")
       .fadeIn(3000);
 });
 
@@ -22,4 +22,30 @@ $(".41ari").click(function(){
    $("#starinfo").html("<h4>41 Arietes</h4><p>41 Arietes (sometimes abbreviated to 41 Ari), is a binary star in the northern constellation of Aries.</p><table><tr><td>Apparent Magnitude</td><td>3.63</td></tr><tr><td>Spectral type</td><td>B8 Vn</td></tr><tr><td>Mass</td><td>3.1 Solar Masses</td></tr><tr><td>Luminosity</td><td>160 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>166ly / 50.8pc</td></tr><tr><td>Temperature</td><td>11900 K</td></tr></table>")
       .fadeIn(3000);
 })
+
+$()
+
+$(document).click(function (event) {
+   if (event.target.id !== "#starinfo") {
+      $("#starinfo").fadeOut();
+   }
+})
+
+
+/* 
+$("#clickme").click(function () {
+    $("#extra").fadeIn();
+});
+$(document).click(function (event) {
+    if (event.target.id !== 'clickme') {
+        $("#extra").fadeOut();
+    }
+})
+*/
+
+
+
+
+
+
 
