@@ -1,20 +1,20 @@
 $(".botein").click(function(){
-   $("#starinfo").html("<h5>x</h5><h4>Botein</h4><p>Botein is a star in the northern constellation Aries. The name is derived from the Arabic word for 'belly'.</p><table><tr><td>Apparent Magnitude</td><td>4.349</td></tr><tr><td>Spectral type</td><td>K2 III</td></tr><tr><td>Mass</td><td>1.91 Mol</td></tr><tr><td>Luminosity</td><td>45</td></tr><tr><td>Distance from Earth</td><td>170ly / 52pc</td></tr><tr><td>Temperature</td><td>4810 K</td></tr></table>")
+   $("#starinfo").html("<h5>x</h5><h4>Botein</h4><p>Botein is a star in the northern constellation Aries. The name is derived from the Arabic word for 'belly'.</p><table><tr><td>Apparent Magnitude</td><td>4.349</td></tr><tr><td>Spectral type</td><td>K2 III</td></tr><tr><td>Mass</td><td>1.91 Solar Masses</td></tr><tr><td>Luminosity</td><td>45</td></tr><tr><td>Distance from Earth</td><td>170ly / 52pc</td></tr><tr><td>Temperature</td><td>4810 K</td></tr></table>")
       .fadeIn(3000);
 });
 
 $(".hamal").click(function(){
-   $("#starinfo").html("<h5>x</h5><h4>Hamal</h4><p>Hamal is the brightest star in the Aries constellation, and among the brightest stars in the night sky. It is a giant star that may host an orbiting planet with a mass greater than Jupiter.</p><table><tr><td>Apparent Magnitude</td><td>2.00</td></tr><tr><td>Spectral type</td><td>K1 IIIb</td></tr><tr><td>Mass</td><td>1.5 Mol</td></tr><tr><td>Luminosity</td><td>91</td></tr><tr><td>Distance from Earth</td><td>65.8ly / 20.2pc</td></tr><tr><td>Temperature</td><td>4480 K</td></tr></table>")
+   $("#starinfo").html("<h5>x</h5><h4>Hamal</h4><p>Hamal is the brightest star in the Aries constellation, and among the brightest stars in the night sky. It is a giant star that may host an orbiting planet with a mass greater than Jupiter.</p><table><tr><td>Apparent Magnitude</td><td>2.00</td></tr><tr><td>Spectral type</td><td>K1 IIIb</td></tr><tr><td>Mass</td><td>1.5 Solar Massessp</td></tr><tr><td>Luminosity</td><td>91</td></tr><tr><td>Distance from Earth</td><td>65.8ly / 20.2pc</td></tr><tr><td>Temperature</td><td>4480 K</td></tr></table>")
       .fadeIn(3000);
 });
 
 $(".sheratan").click(function (){
-   $("#starinfo").html("<h5>x</h5><h4>Sheratan</h4><p>Sheratan is a binary star in the Aries constellation. It marks the Ram's second horn.</p><table><tr><td>Apparent Magnitude</td><td>2.655</td></tr><tr><td>Spectral type</td><td>A5 V</td></tr><tr><td>Mass</td><td>2.34 Mol</td></tr><tr><td>Luminosity</td><td>23</td></tr><tr><td>Distance from Earth</td><td>59.6ly / 18.3pc</td></tr><tr><td>Temperature</td><td>4810 K</td></tr></table>")
+   $("#starinfo").html("<h5>x</h5><h4>Sheratan</h4><p>Sheratan is a binary star in the Aries constellation. It marks the Ram's second horn.</p><table><tr><td>Apparent Magnitude</td><td>2.655</td></tr><tr><td>Spectral type</td><td>A5 V</td></tr><tr><td>Mass</td><td>2.34 Solar Masses</td></tr><tr><td>Luminosity</td><td>23</td></tr><tr><td>Distance from Earth</td><td>59.6ly / 18.3pc</td></tr><tr><td>Temperature</td><td>4810 K</td></tr></table>")
       .fadeIn(3000);
 })
 
 $(".mesarthim").click(function(){
-   $("#starinfo").html("<h5>x</h5><h4>Mesarthim</h4><p>Hamal is a binary star system in the northern constellation of Aries. </p><table><tr><td>Apparent Magnitude</td><td>3.86</td></tr><tr><td>Spectral type</td><td>B9 V</td></tr><tr><td>Mass</td><td>Unkown Mol</td></tr><tr><td>Luminosity</td><td>Unknown</td></tr><tr><td>Distance from Earth</td><td>164ly / 50pc</td></tr><tr><td>Temperature</td><td>10970 K</td></tr></table>")
+   $("#starinfo").html("<h5>x</h5><h4>Mesarthim</h4><p>Hamal is a binary star system in the northern constellation of Aries. </p><table><tr><td>Apparent Magnitude</td><td>3.86</td></tr><tr><td>Spectral type</td><td>B9 V</td></tr><tr><td>Mass</td><td>Unkown Solar Masses</td></tr><tr><td>Luminosity</td><td>Unknown</td></tr><tr><td>Distance from Earth</td><td>164ly / 50pc</td></tr><tr><td>Temperature</td><td>10970 K</td></tr></table>")
       .fadeIn(3000);
 })
 
@@ -71,6 +71,36 @@ $(".elnath").click(function(){
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(".zubeneschemali").click(function(){
+   $("#starinfo").html("<h4>Zubeneschemali</h4><p>Zubeneschemali is the brightest star in the Libra constellation. The name is derived from Arabic, and means 'the Northern Claw'.</p><table><tr><td>Apparent Magnitude</td><td>2.61</td></tr><tr><td>Spectral type</td><td>B8 V</td></tr><tr><td>Mass</td><td>3.5 Solar Masses</td></tr><tr><td>Luminosity</td><td>130 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>185ly / 56.8pc</td></tr><tr><td>Temperature</td><td>12300 K</td></tr></table>")
+      .fadeIn(3000);
+});
+$(".zubenelakrab").click(function(){
+   $("#starinfo").html("<h4>Zubenelakrab</h4><p>Zubenelakrab is a star in the Libra constellation. The name is derived from Arabic, and means 'the Claws of the Scorpion'. The name dates to before Libra was a distinct constellation from Scorpius.</p><table><tr><td>Apparent Magnitude</td><td>3.91</td></tr><tr><td>Spectral type</td><td>K0 III</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>152ly / 46.63pc</td></tr><tr><td>Temperature</td><td>n/a</td></tr></table>")
+      .fadeIn(3000);
+});
+$(".zubenelgenubi").click(function(){
+   $("#starinfo").html("<h4>Zubenelgenubi</h4><p>Zubenelgenubi is the second brightest star in the Libra constellation. The name is derived from Arabic, and means 'the Southern Claw'. The name dates to before Libra was a distinct constellation from Scorpius.</p><table><tr><td>Apparent Magnitude</td><td>5.153</td></tr><tr><td>Spectral type</td><td>F3 V</td></tr><tr><td>Mass</td><td>1.33 Solar Masses</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>75.8ly / 23.2pc</td></tr><tr><td>Temperature</td><td>8128 K</td></tr></table>")
+      .fadeIn(3000);
+});
+$(".brachium").click(function(){
+   $("#starinfo").html("<h4>Brachium</h4><p>Brachium is the second brightest star in the Libra constellation, and is visible to the naked eye.</p><table><tr><td>Apparent Magnitude</td><td>3.29</td></tr><tr><td>Spectral type</td><td>M3/M4 III</td></tr><tr><td>Mass</td><td>2.1 Solar Masses</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>288ly / 88pc</td></tr><tr><td>Temperature</td><td>3600 K</td></tr></table>")
+      .fadeIn(3000);
+})
 
 
 
