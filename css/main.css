@@ -845,6 +845,64 @@ td + td {
 
 
 
+@-webkit-keyframes twinkleOne {
+   0% {box-shadow: 0 0 5px 1px #fff;}
+   50% {box-shadow: 0 0 0 0;}
+   100% {box-shadow: 0 0 5px 1px #fff;}
+}
+
+.star.first,
+.star.fourth,
+.star.seventh {
+   animation-name: twinkleOne;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes twinkleTwo {
+   0%{box-shadow: 0 0 8px 2px #fff;}
+   50%{box-shadow: 0 0 5px 1px #fff;}
+   100%{box-shadow: 0 0 8px 2px #fff;}
+}
+
+.star.second,
+.star.sixth,
+.star.tenth {
+   animation-name: twinkleTwo;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+}
+
+
+@-webkit-keyframes twinkleThree {
+   0%{box-shadow: 0 0 5px 1px #fff;}
+   50%{box-shadow: 0 0 6px 2px #fff;}
+   100%{box-shadow: 0 0 5px 1px #fff;}
+}
+
+.star.second,
+.star.seventh,
+.star.twelfth,
+.star.sixteenth {
+   animation-name: twinkleThree;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes twinkleFour {
+   0%{box-shadow: 0 0 5px 1px #fff;}
+   50%{box-shadow: 0 0 7px 2px #fff;}
+   100%{box-shadow: 0 0 5px 1px #fff;}
+}
+
+.star.third,
+.star.fifth,
+.star.eighth,
+.star.elventh {
+   animation-name: twinkleFour;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+}
 
 @-webkit-keyframes aurora {
    0% {background-color: #FC0025;}
