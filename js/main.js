@@ -183,70 +183,70 @@ $(".algieba").click(function(){
       .show(3000);
 });
 $(".zosma").click(function(){
-   $("#starinfo").html("<h4>Zosma</h4><p>Delta Leonis, or Zosma, is a star in the constellation of Leo. The name Zosma means girdle in ancient Greek, referring to the star's location in its constellation, on the hip of the lion.</p><table><tr><td>Apparent Magnitude</td><td>2.56</td></tr><tr><td>Spectral type</td><td>A4 V</td></tr><tr><td>Mass</td><td>2.2 Solar Masses</td></tr><tr><td>Luminosity</td><td>15.5 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>58.4ly / 17.91pc</td></tr><tr><td>Temperature</td><td>8296 K</td></tr></table>")
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Zosma</h4><p>Delta Leonis, or Zosma, is a star in the constellation of Leo. The name Zosma means girdle in ancient Greek, referring to the star's location in its constellation, on the hip of the lion.</p><table><tr><td>Apparent Magnitude</td><td>2.56</td></tr><tr><td>Spectral type</td><td>A4 V</td></tr><tr><td>Mass</td><td>2.2 Solar Masses</td></tr><tr><td>Luminosity</td><td>15.5 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>58.4ly / 17.91pc</td></tr><tr><td>Temperature</td><td>8296 K</td></tr></table>")
       .show(3000);
 });
 $(".eta-leonis").click(function(){
-   $("#starinfo").html("<h4>Eta Leonis</h4><p>Eta Leonis doesn't have a proper name. Since 1943, the spectrum of this star has served as one of the stable anchor points by which other stars are classified.</p><table><tr><td>Apparent Magnitude</td><td>3.486</td></tr><tr><td>Spectral type</td><td>A0 lb</td></tr><tr><td>Mass</td><td>10 Solar Masses</td></tr><tr><td>Luminosity</td><td>19,000 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>1270ly / 390pc</td></tr><tr><td>Temperature</td><td>9600 K</td></tr></table>")
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Eta Leonis</h4><p>Eta Leonis doesn't have a proper name. Since 1943, the spectrum of this star has served as one of the stable anchor points by which other stars are classified.</p><table><tr><td>Apparent Magnitude</td><td>3.486</td></tr><tr><td>Spectral type</td><td>A0 lb</td></tr><tr><td>Mass</td><td>10 Solar Masses</td></tr><tr><td>Luminosity</td><td>19,000 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>1270ly / 390pc</td></tr><tr><td>Temperature</td><td>9600 K</td></tr></table>")
       .show(3000);
 });
 $(".chort").click(function(){
-   $("#starinfo").html("<h4>Chort</h4><p>Theta Leonis is visible to the naked eye and is one of the brighter stars in the constellation Leo. It is much younger than the sun, with an estimated age of around 550 million years. The name, Chort, is derived from Arabic and means 'small rib'.</p><table><tr><td>Apparent Magnitude</td><td>3.324</td></tr><tr><td>Spectral type</td><td>A2 V</td></tr><tr><td>Mass</td><td>2.5 Solar Masses</td></tr><tr><td>Luminosity</td><td>141 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>165ly / 50.6pc</td></tr><tr><td>Temperature</td><td>9350 K</td></tr></table>")
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Chort</h4><p>Theta Leonis is visible to the naked eye and is one of the brighter stars in the constellation Leo. It is much younger than the sun, with an estimated age of around 550 million years. The name, Chort, is derived from Arabic and means 'small rib'.</p><table><tr><td>Apparent Magnitude</td><td>3.324</td></tr><tr><td>Spectral type</td><td>A2 V</td></tr><tr><td>Mass</td><td>2.5 Solar Masses</td></tr><tr><td>Luminosity</td><td>141 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>165ly / 50.6pc</td></tr><tr><td>Temperature</td><td>9350 K</td></tr></table>")
       .show(3000);
 });
 $(".denebola").click(function(){
-   $("#starinfo").html("<h4>Denebola</h4><p>Denebola is the third brightest star in the zodiac constellation of Leo. The star is a suspected Delta Scuti type variable star, meaning its lumniosity varies very slightly over a period of a few hours.</p><table><tr><td>Apparent Magnitude</td><td>2.113</td></tr><tr><td>Spectral type</td><td>A3Vvar</td></tr><tr><td>Mass</td><td>1.78 Solar Masses</td></tr><tr><td>Luminosity</td><td>15 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>35.9ly / 11pc</td></tr><tr><td>Temperature</td><td>8500 K</td></tr></table>")
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Denebola</h4><p>Denebola is the third brightest star in the zodiac constellation of Leo. The star is a suspected Delta Scuti type variable star, meaning its lumniosity varies very slightly over a period of a few hours.</p><table><tr><td>Apparent Magnitude</td><td>2.113</td></tr><tr><td>Spectral type</td><td>A3Vvar</td></tr><tr><td>Mass</td><td>1.78 Solar Masses</td></tr><tr><td>Luminosity</td><td>15 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>35.9ly / 11pc</td></tr><tr><td>Temperature</td><td>8500 K</td></tr></table>")
       .show(3000);
 });
 $(".regulus").click(function(){
-   $("#starinfo").html("<h4>Regulus</h4><p>Regulus is the brightest star in the constellation Leo and one of the brightest stars in the night sky. It is a multiple star system composed of four stars that are organised into two pairs.</p><table><tr><td>Apparent Magnitude</td><td>1.4</td></tr><tr><td>Spectral type</td><td>B8 IVn</td></tr><tr><td>Mass</td><td>3.8 Solar Masses</td></tr><tr><td>Luminosity</td><td>288 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>79.3ly / 24.3pc</td></tr><tr><td>Temperature</td><td>12460 K</td></tr></table>")
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Regulus</h4><p>Regulus is the brightest star in the constellation Leo and one of the brightest stars in the night sky. It is a multiple star system composed of four stars that are organised into two pairs.</p><table><tr><td>Apparent Magnitude</td><td>1.4</td></tr><tr><td>Spectral type</td><td>B8 IVn</td></tr><tr><td>Mass</td><td>3.8 Solar Masses</td></tr><tr><td>Luminosity</td><td>288 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>79.3ly / 24.3pc</td></tr><tr><td>Temperature</td><td>12460 K</td></tr></table>")
       .show(3000);
 });
 
 
 // Virgo
 $(".vindemiatrix").click(function(){
-   $("#starinfo").html("<h4>Vindemiatrix</h4><p>Epsilon Virginis in the Virgo constellation has the traditional name Vindemiatrix, maning Grape Gatherer in Greek. It is the third brightest member of Virgo.</p><table><tr><td>Apparent Magnitude</td><td>2.826</td></tr><tr><td>Spectral type</td><td>G8 III</td></tr><tr><td>Mass</td><td>2.64 Solar Masses</td></tr><tr><td>Luminosity</td><td>77 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>109.6ly / 33.6pc</td></tr><tr><td>Temperature</td><td>5068 K</td></tr></table>")
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Vindemiatrix</h4><p>Epsilon Virginis in the Virgo constellation has the traditional name Vindemiatrix, maning Grape Gatherer in Greek. It is the third brightest member of Virgo.</p><table><tr><td>Apparent Magnitude</td><td>2.826</td></tr><tr><td>Spectral type</td><td>G8 III</td></tr><tr><td>Mass</td><td>2.64 Solar Masses</td></tr><tr><td>Luminosity</td><td>77 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>109.6ly / 33.6pc</td></tr><tr><td>Temperature</td><td>5068 K</td></tr></table>")
       .show(3000);
 });
 $(".auva").click(function(){
-   $("#starinfo").html("<h4>Auva</h4><p>Delta Virginis has the traditional name Auva, which means 'barking dog'. It is bright enough to be seen with the naked eye.</p><table><tr><td>Apparent Magnitude</td><td>3.402</td></tr><tr><td>Spectral type</td><td>M3 III</td></tr><tr><td>Mass</td><td>1.4 Solar Masses</td></tr><tr><td>Luminosity</td><td>468 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>198ly / 60.8pc</td></tr><tr><td>Temperature</td><td>3999 K</td></tr></table>")
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Auva</h4><p>Delta Virginis has the traditional name Auva, which means 'barking dog'. It is bright enough to be seen with the naked eye.</p><table><tr><td>Apparent Magnitude</td><td>3.402</td></tr><tr><td>Spectral type</td><td>M3 III</td></tr><tr><td>Mass</td><td>1.4 Solar Masses</td></tr><tr><td>Luminosity</td><td>468 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>198ly / 60.8pc</td></tr><tr><td>Temperature</td><td>3999 K</td></tr></table>")
       .show(3000);
 });
 $(".nu-virginis").click(function(){
-   $("#nu-virginis").html("<h4>Nu Virginis</h4><p>Nu Virginis is a M-type red giant in the constellation Virgo.</p><table><tr><td>Apparent Magnitude</td><td>4.04</td></tr><tr><td>Spectral type</td><td>M1IIIab</td></tr><tr><td>Mass</td><td>1.6 Solar Masses</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>313ly / 96pc</td></tr><tr><td>Temperature</td><td>3795 K</td></tr></table>")
+   $("#nu-virginis").html("<div id ='exit'><span>x</span></div><h4>Nu Virginis</h4><p>Nu Virginis is a M-type red giant in the constellation Virgo.</p><table><tr><td>Apparent Magnitude</td><td>4.04</td></tr><tr><td>Spectral type</td><td>M1IIIab</td></tr><tr><td>Mass</td><td>1.6 Solar Masses</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>313ly / 96pc</td></tr><tr><td>Temperature</td><td>3795 K</td></tr></table>")
       .show(3000);
 });
 $(".zavijava").click(function(){
-   $("#starinfo").html("<h4>Zavijava</h4><p>Beta Virginis is a star in the constellation Virgo. Despite being the beta star of the constellation, it is only the fifth star in order of brightness.</p><table><tr><td>Apparent Magnitude</td><td>3.604</td></tr><tr><td>Spectral type</td><td>F9 V</td></tr><tr><td>Mass</td><td>1.25 Solar Masses</td></tr><tr><td>Luminosity</td><td>3.572</td></tr><tr><td>Distance from Earth</td><td>35.65ly / 10.93pc</td></tr><tr><td>Temperature</td><td>6132 K</td></tr></table>")
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Zavijava</h4><p>Beta Virginis is a star in the constellation Virgo. Despite being the beta star of the constellation, it is only the fifth star in order of brightness.</p><table><tr><td>Apparent Magnitude</td><td>3.604</td></tr><tr><td>Spectral type</td><td>F9 V</td></tr><tr><td>Mass</td><td>1.25 Solar Masses</td></tr><tr><td>Luminosity</td><td>3.572</td></tr><tr><td>Distance from Earth</td><td>35.65ly / 10.93pc</td></tr><tr><td>Temperature</td><td>6132 K</td></tr></table>")
       .show(3000);
 });
 $(".zaniah").click(function(){
-   $("#starinfo").html("<h4>Zaniah</h4><p>Eta Virginis has the traditional name Zaniah, which comes from the Arabic word for 'corner'. Although the star looks single, it is actually a very close triple star system, which is bright enough to be seen with the naked eye in dark skies.</p><table><tr><td>Apparent Magnitude</td><td>3.89</td></tr><tr><td>Spectral type</td><td>A2 V</td></tr><tr><td>Mass</td><td>2.503 Solar Masses</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>265ly / 81pc</td></tr><tr><td>Temperature</td><td>9333 K</td></tr></table>")
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Zaniah</h4><p>Eta Virginis has the traditional name Zaniah, which comes from the Arabic word for 'corner'. Although the star looks single, it is actually a very close triple star system, which is bright enough to be seen with the naked eye in dark skies.</p><table><tr><td>Apparent Magnitude</td><td>3.89</td></tr><tr><td>Spectral type</td><td>A2 V</td></tr><tr><td>Mass</td><td>2.503 Solar Masses</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>265ly / 81pc</td></tr><tr><td>Temperature</td><td>9333 K</td></tr></table>")
       .show(3000);
 });
 $(".porrima").click(function(){
-   $("#starinfo").html("<h4>Porrima</h4><p>Gamma Virginis is a binary star system in the constellation Virgo. The traditional name Porrima is an alternative name of Antevorta, one of the ancient Roman goddesses of prohpecy.</p><table><tr><td>Apparent Magnitude</td><td>2.74</td></tr><tr><td>Spectral type</td><td>F0 V</td></tr><tr><td>Mass</td><td>1.56 Solar Masses</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>38.1ly / 11.68pc</td></tr><tr><td>Temperature</td><td>6757 K</td></tr></table>")
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Porrima</h4><p>Gamma Virginis is a binary star system in the constellation Virgo. The traditional name Porrima is an alternative name of Antevorta, one of the ancient Roman goddesses of prohpecy.</p><table><tr><td>Apparent Magnitude</td><td>2.74</td></tr><tr><td>Spectral type</td><td>F0 V</td></tr><tr><td>Mass</td><td>1.56 Solar Masses</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>38.1ly / 11.68pc</td></tr><tr><td>Temperature</td><td>6757 K</td></tr></table>")
       .show(3000);
 });
 $(".tau-virginis").click(function(){
-   $("#starinfo").html("<h4>Tau Virginis</h4><p>Tau Virginis is a star system in the constellation Virgo.</p><table><tr><td>Apparent Magnitude</td><td>4.23</td></tr><tr><td>Spectral type</td><td>A3V</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>218ly / 67pc</td></tr><tr><td>Temperature</td><td>n/a</td></tr></table>")
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Tau Virginis</h4><p>Tau Virginis is a star system in the constellation Virgo.</p><table><tr><td>Apparent Magnitude</td><td>4.23</td></tr><tr><td>Spectral type</td><td>A3V</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>218ly / 67pc</td></tr><tr><td>Temperature</td><td>n/a</td></tr></table>")
       .show(3000);
 });
 $(".heze").click(function(){
-   $("#starinfo").html("<h4>Heze</h4><p>Zeta Virginis is a star in the Virgo constellation which is visible to the naked eye. This half billion year old star's traditional name, Heze, is of unclear origin.</p><table><tr><td>Apparent Magnitude</td><td>3.376</td></tr><tr><td>Spectral type</td><td>A3 V</td></tr><tr><td>Mass</td><td>2.041 Solar Masses</td></tr><tr><td>Luminosity</td><td>17.885 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>74.1ly / 22.71pc</td></tr><tr><td>Temperature</td><td>8247 K</td></tr></table>")
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Heze</h4><p>Zeta Virginis is a star in the Virgo constellation which is visible to the naked eye. This half billion year old star's traditional name, Heze, is of unclear origin.</p><table><tr><td>Apparent Magnitude</td><td>3.376</td></tr><tr><td>Spectral type</td><td>A3 V</td></tr><tr><td>Mass</td><td>2.041 Solar Masses</td></tr><tr><td>Luminosity</td><td>17.885 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>74.1ly / 22.71pc</td></tr><tr><td>Temperature</td><td>8247 K</td></tr></table>")
       .show(3000);
 });
 $(".syrma").click(function(){
-   $("#starinfo").html("<h4>Syrma</h4><p>Iota Virginis is a yellow star in the Virgo constellation. The traditional name, Syrma, comes from the Arabic word for 'train' (of a garment').</p><table><tr><td>Apparent Magnitude</td><td>4.07</td></tr><tr><td>Spectral type</td><td>F6 III</td></tr><tr><td>Mass</td><td>1.52 Solar Masses</td></tr><tr><td>Luminosity</td><td>8.6 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>69.8ly / 21.4pc</td></tr><tr><td>Temperature</td><td>6282 K</td></tr></table>")
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Syrma</h4><p>Iota Virginis is a yellow star in the Virgo constellation. The traditional name, Syrma, comes from the Arabic word for 'train' (of a garment').</p><table><tr><td>Apparent Magnitude</td><td>4.07</td></tr><tr><td>Spectral type</td><td>F6 III</td></tr><tr><td>Mass</td><td>1.52 Solar Masses</td></tr><tr><td>Luminosity</td><td>8.6 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>69.8ly / 21.4pc</td></tr><tr><td>Temperature</td><td>6282 K</td></tr></table>")
       .show(3000);
 });
 $(".theta-virginis").click(function(){
-   $("#starinfo").html("<h4>Theta Virginis</h4><p>Theta Virginis is a spectroscopic binary star system in the constellation Virgo. It has an orbital period of about 14 years.</p><table><tr><td>Apparent Magnitude</td><td>4.38</td></tr><tr><td>Spectral type</td><td>A1IVs+Am</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>415ly / 127pc</td></tr><tr><td>Temperature</td><td>n/a</td></tr></table>")
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Theta Virginis</h4><p>Theta Virginis is a spectroscopic binary star system in the constellation Virgo. It has an orbital period of about 14 years.</p><table><tr><td>Apparent Magnitude</td><td>4.38</td></tr><tr><td>Spectral type</td><td>A1IVs+Am</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>415ly / 127pc</td></tr><tr><td>Temperature</td><td>n/a</td></tr></table>")
       .show(3000);
 });
 $(".spica").click(function(){
-   $("#starinfo").html("<h4>Spica</h4><p>Spica is the brightest star in the constellation Virgo, and the 15th birghtest star in the night sky. It is a spectroscopic binary and rotating ellipsoidal variable - a system whose two main stars are so close together they are egg-shaped rather than spherical.</p><table><tr><td>Apparent Magnitude</td><td>0.97</td></tr><tr><td>Spectral type</td><td>B1 III-IV</td></tr><tr><td>Mass</td><td>10.25 Solar Masses</td></tr><tr><td>Luminosity</td><td>12,100 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>250ly / 77pc</td></tr><tr><td>Temperature</td><td>22,400 K</td></tr></table>")
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Spica</h4><p>Spica is the brightest star in the constellation Virgo, and the 15th birghtest star in the night sky. It is a spectroscopic binary and rotating ellipsoidal variable - a system whose two main stars are so close together they are egg-shaped rather than spherical.</p><table><tr><td>Apparent Magnitude</td><td>0.97</td></tr><tr><td>Spectral type</td><td>B1 III-IV</td></tr><tr><td>Mass</td><td>10.25 Solar Masses</td></tr><tr><td>Luminosity</td><td>12,100 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>250ly / 77pc</td></tr><tr><td>Temperature</td><td>22,400 K</td></tr></table>")
       .show(3000);
 });
 
@@ -284,6 +284,20 @@ $(".brachium").click(function(){
 // });
 
 
-
+$(function() {
+   $('nav a').bind('click',function(event){
+      var $anchor = $(this);
+      /*
+      if you want to use one of the easing effects:
+      $('html, body').stop().animate({
+         scrollLeft: $($anchor.attr('href')).offset().left
+      }, 1500,'easeInOutExpo');
+       */
+      $('html, body').stop().animate({
+         scrollLeft: $($anchor.attr('href')).offset().left
+      }, 1000);
+      event.preventDefault();
+   });
+});
 
 
