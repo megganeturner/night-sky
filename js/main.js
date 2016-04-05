@@ -2,6 +2,13 @@ $(document).on("click", "#exit", function () {
    $(this).parent().fadeOut();
 });
 
+$(".star").hover(function(){
+   $("#moreinfo").show(1000);
+   }, function(){
+   $("#moreinfo").fadeOut();
+});
+
+
 // Aries
 $(".botein").click(function(){
    $("#starinfo").html("<div id='exit'><span>x</span></div><h4>Botein</h4><p>Botein is a star in the northern constellation Aries. The name is derived from the Arabic word for 'belly'.</p><table><tr><td>Apparent Magnitude</td><td>4.349</td></tr><tr><td>Spectral type</td><td>K2 III</td></tr><tr><td>Mass</td><td>1.91 Solar Masses</td></tr><tr><td>Luminosity</td><td>45</td></tr><tr><td>Distance from Earth</td><td>170ly / 52pc</td></tr><tr><td>Temperature</td><td>4810 K</td></tr></table>")
@@ -268,6 +275,117 @@ $(".brachium").click(function(){
    $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Brachium</h4><p>Brachium is the second brightest star in the Libra constellation, and is visible to the naked eye.</p><table><tr><td>Apparent Magnitude</td><td>3.29</td></tr><tr><td>Spectral type</td><td>M3/M4 III</td></tr><tr><td>Mass</td><td>2.1 Solar Masses</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>288ly / 88pc</td></tr><tr><td>Temperature</td><td>3600 K</td></tr></table>")
       .show(3000);
 });
+
+
+// Scorpio
+$(".jabbah").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Jabbah</h4><p>Nu Scorpii is a star system in the Scorpius constellation. It is at least a quintuple star, probable a septuple, consisting of two close groups that are separated by 41 arcseconds.</p><table><tr><td>Apparent Magnitude</td><td>4.00</td></tr><tr><td>Spectral type</td><td>B2IV</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>437ly / 134pc</td></tr><tr><td>Temperature</td><td>n/a</td></tr></table>")
+      .show(3000);
+});
+$(".graffias").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Graffias</h4><p>Beta Scorpii is a multiple star system in the zodiac constellation Scorpius. Graffias appears on the flag of Brazil, symbolising the state of Maranhão.</p><table><tr><td>Apparent Magnitude</td><td>2.62</td></tr><tr><td>Spectral type</td><td>B1V</td></tr><tr><td>Mass</td><td>10 Solar Masses</td></tr><tr><td>Luminosity</td><td>20,000 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>400ly / 120pc</td></tr><tr><td>Temperature</td><td>27,000 K</td></tr></table>")
+      .show(3000);
+});
+$(".dschubba").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Dschubba</h4><p>Delta Scorpii is a binary star in the constellation Scorpius. It was once used as a spectroscopic standard for the B0 IV classification, but is now considered too unusual and variable.</p><table><tr><td>Apparent Magnitude</td><td>2.307</td></tr><tr><td>Spectral type</td><td>B0.3 IV</td></tr><tr><td>Mass</td><td>13 Solar Masses</td></tr><tr><td>Luminosity</td><td>38,000 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>443ly / 136pc</td></tr><tr><td>Temperature</td><td>27,400 K</td></tr></table>")
+      .show(3000);
+});
+$(".pi-scorpii").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Pi Scorpii</h4><p>Pi Scorpii is a triple star system in the constellation Scorpius. It can easily be seen with the naked eye.</p><table><tr><td>Apparent Magnitude</td><td>2.89</td></tr><tr><td>Spectral type</td><td>B1 V</td></tr><tr><td>Mass</td><td>12.5 Solar Masses</td></tr><tr><td>Luminosity</td><td>21,900 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>590ly / 180pc</td></tr><tr><td>Temperature</td><td>25,230 K</td></tr></table>")
+      .show(3000);
+});
+$(".rho-scorpii").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Rho Scorpii</h4><p>Rho Scorpii is a binary star in the constellation Scorpius.</p><table><tr><td>Apparent Magnitude</td><td>3.86</td></tr><tr><td>Spectral type</td><td>B2IV</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>470ly / 145pc</td></tr><tr><td>Temperature</td><td>n/a</td></tr></table>")
+      .show(3000);
+});
+$(".alniyat").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Alniyat</h4><p>Sigma Scorpii is a star system in the constellation Scorpius. Given its position, youth, and space velocity, Alniyat is a likely member of the Gould Belt.</p><table><tr><td>Apparent Magnitude</td><td>2.88</td></tr><tr><td>Spectral type</td><td>B1 III</td></tr><tr><td>Mass</td><td>18.4 Solar Masses</td></tr><tr><td>Luminosity</td><td>29,000 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>568ly / 174pc</td></tr><tr><td>Temperature</td><td>26,150 K</td></tr></table>")
+      .show(3000);
+});
+$(".antares").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Antares</h4><p>Antares is the fifteenth brightest star in the night sky and the brightest star in the constellation Scorpius. It is often referred to as 'the heart of the scorpion'.</p><table><tr><td>Apparent Magnitude</td><td>0.96</td></tr><tr><td>Spectral type</td><td>M1.5Iab</td></tr><tr><td>Mass</td><td>12.4 Solar Masses</td></tr><tr><td>Luminosity</td><td>57,500 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>550ly / 170pc</td></tr><tr><td>Temperature</td><td>3400 K</td></tr></table>")
+      .show(3000);
+});
+$(".epsilon-scorpii").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Epsilon Scorpii</h4><p>Epsilon Scorpii is a star in the constellation Scorpius. Patrick Moore introduced the name 'Wei', but this seems to be a misreading. Wei, meaning the tail, was originally the name of a Chinese asterism comprising of a number of stars.</p><table><tr><td>Apparent Magnitude</td><td>2.31</td></tr><tr><td>Spectral type</td><td>K1 III</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>63.7ly / 19.54pc</td></tr><tr><td>Temperature</td><td>4,560 K</td></tr></table>")
+      .show(3000);
+});
+$(".mu-scorpii").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Mu Scorpii</h4><p>The Bayer designation Mu Scorpii is shared by two star systems in the constellation Scorpius. They are separated by 0.1<sup>o</sup> in the sky. They are separated too by the different asterism in Chinese astronomy.<br>In Polynesian mythology, they were <em>Piri-ere-ua</em> (meaning the 'Inseparable One'), two children which were fleeing their wicked parents</p>")
+      .show(3000);
+});
+$(".zeta-scorpii").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Zeta Scorpii</h4><p>The Bayer designation Zeta Scorpii is shared by two stars in the constellation Scorpius. They are separated by 7 arc minutes on the sky. The stars are not physically related as they are at greatly different distances from the Earth.</p>")
+      .show(3000);
+});
+$(".eta-scorpii").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Eta Scorpii</h4><p>Eta Scorpii is one of the brighter members of the Scorpius, and has an estimated age of 1.1 billion years. It is rotating rapidly, with a projected rotational velocity of 150 km s <sup>-1</sup>.</p><table><tr><td>Apparent Magnitude</td><td>3.33</td></tr><tr><td>Spectral type</td><td>F5 IV</td></tr><tr><td>Mass</td><td>1.75 Solar Masses</td></tr><tr><td>Luminosity</td><td>17.7 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>73.5ly / 22.53pc</td></tr><tr><td>Temperature</td><td>6,519 K</td></tr></table>")
+      .show(3000);
+});
+$(".sargas").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Sargas</h4><p>Theta Scorpii is a readily visible star in the Scorpius constellation, being one of the brightest in the sky. The traditional name, Sargas, is of Sumerian origin. The star appears on the flag of Brazil, symbolising the state of Alagoas.</p><table><tr><td>Apparent Magnitude</td><td>1.84</td></tr><tr><td>Spectral type</td><td>F0 II</td></tr><tr><td>Mass</td><td>5.66 Solar Masses</td></tr><tr><td>Luminosity</td><td>1,834 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>300ly / 90pc</td></tr><tr><td>Temperature</td><td>7,268 K</td></tr></table>")
+      .show(3000);
+});
+$(".iota-scorpii").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Iota Scorpii</h4><p>There are two stars with the Bayer designation Iota Scorpii. They are separated by 0.50<sup>o</sup> in the sky.</p>")
+      .show(3000);
+});
+$(".girtab").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Girtab</h4><p>Kappa Scorpii has the traditional name Girtab, which is the Sumerian word for 'scorpion', and has survived through the Babylonian star catalogues.</p><table><tr><td>Apparent Magnitude</td><td>2.39</td></tr><tr><td>Spectral type</td><td>B1.5 III</td></tr><tr><td>Mass</td><td>17 Solar Masses</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>480ly / 148pc</td></tr><tr><td>Temperature</td><td>18,800 K</td></tr></table>")
+      .show(3000);
+});
+$(".shaula").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Shaula</h4><p>Shaula is a blue star and the second brightest star system in the constellation Scorpius, and one of the brightest stars in the night sky. The lame Shaula comes from Arabic, and means 'the raised tail'.</p><table><tr><td>Apparent Magnitude</td><td>1.62</td></tr><tr><td>Spectral type</td><td>B2IV</td></tr><tr><td>Mass</td><td>14.5 Solar Masses</td></tr><tr><td>Luminosity</td><td>36,300 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>570ly / 180pc</td></tr><tr><td>Temperature</td><td>25,000 K</td></tr></table>")
+      .show(3000);
+});
+$(".lesath").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Lesath</h4><p>Lesath is a star located in the 'stinger' of the constellation Scorpius.</p><table><tr><td>Apparent Magnitude</td><td>2.70</td></tr><tr><td>Spectral type</td><td>B2IV</td></tr><tr><td>Mass</td><td>11.4 Solar Masses</td></tr><tr><td>Luminosity</td><td>12,300 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>580ly / 177pc</td></tr><tr><td>Temperature</td><td>22,831 K</td></tr></table>")
+      .show(3000);
+});
+
+
+// Sagittarius
+$(".polis").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Polis</h4><p>Mu Sagittarii has the traditional name Polis, which is derived from a Coptic word meaning 'foal'.</p><table><tr><td>Apparent Magnitude</td><td>3.84</td></tr><tr><td>Spectral type</td><td>B8I</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>&gt;3912ly / 920pc</td></tr><tr><td>Temperature</td><td>n/a</td></tr></table>")
+      .show(3000);
+});
+$(".kaus-borealis").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Kaus Borealis</h4><p>Kaus Borealis marks the top of the Archer's bow in the constellation Sagittarius. It is one of the brighter members of the constellation and is readily visible to the naked eye.</p><table><tr><td>Apparent Magnitude</td><td>2.82</td></tr><tr><td>Spectral type</td><td>K0 IV</td></tr><tr><td>Mass</td><td>2.6</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>78.2ly / 23.97pc</td></tr><tr><td>Temperature</td><td>4,770 K</td></tr></table>")
+      .show(3000);
+});
+$(".phi-sagittarii").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Phi Sagittarii</h4><p>Phi Sagittarii is the ninth brightest star in the Sagittarius constellation and s readily visible to the naked eye.</p><table><tr><td>Apparent Magnitude</td><td>3.17</td></tr><tr><td>Spectral type</td><td>B8.5 III</td></tr><tr><td>Mass</td><td>4 Solar Masses</td></tr><tr><td>Luminosity</td><td>475 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>239ly / 73pc</td></tr><tr><td>Temperature</td><td>14,990 K</td></tr></table>")
+      .show(3000);
+});
+$(".nunki").click(function(){
+   $("#Starinfo").html("<div id ='exit'><span>x</span></div><h4>Nunki</h4><p>Sigma Sagittarii iis the second brightest star in the constellation Sagittarius. Its modern name Nunki is an Assyrian or Babylonian name recovered by archaeologists.</p><table><tr><td>Apparent Magnitude</td><td>2.05</td></tr><tr><td>Spectral type</td><td>B2.5 V</td></tr><tr><td>Mass</td><td>7.8 Solar Masses</td></tr><tr><td>Luminosity</td><td>3,300 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>228ly / 70pc</td></tr><tr><td>Temperature</td><td>18,890 K</td></tr></table>")
+      .show(3000);
+});
+$(".tau-sagittarii").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Tau Sagittarii</h4><p>Tau Sagittarii is one of the brighter members of the constellation Sagittarius.</p><table><tr><td>Apparent Magnitude</td><td>3.326</td></tr><tr><td>Spectral type</td><td>K1 III</td></tr><tr><td>Mass</td><td>1.5 Solar Masses</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>122ly / 37pc</td></tr><tr><td>Temperature</td><td>4,860 K</td></tr></table>")
+      .show(3000);
+});
+$(".ascella").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Ascella</h4><p>Zeta Sagittarii is the third brightest star system in the Sagittaruis constellation. The traditional name Ascella, comes from a Late Latin word meaning armpit.</p><table><tr><td>Apparent Magnitude</td><td>2.59</td></tr><tr><td>Spectral type</td><td>A2.5Va</td></tr><tr><td>Mass</td><td>5.26 Solar Masses</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>88ly / 27pc</td></tr><tr><td>Temperature</td><td>8,799 K</td></tr></table>")
+      .show(3000);
+});
+$(".kaus-media").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Maus Media</h4><p>Delta Sagittarii is a double star which is easily visible to the naked eye.</p><table><tr><td>Apparent Magnitude</td><td>2.7</td></tr><tr><td>Spectral type</td><td>K3 III</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>348ly / 107pc</td></tr><tr><td>Temperature</td><td>n/a</td></tr></table>")
+      .show(3000);
+});
+$(".alnasl").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Al Nasl</h4><p>Alnasl forms the tip of the arrow in the bow of Sagittarius the Centaur. It is the seventh brightest star in the constellation.</p><table><tr><td>Apparent Magnitude</td><td>2.98</td></tr><tr><td>Spectral type</td><td>K1 III</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>96.9ly / 29.7pc</td></tr><tr><td>Temperature</td><td>4,760 K</td></tr></table>")
+      .show(3000);
+});
+$(".kaus-australis").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Kaus Australis</h4><p>Epsilon Sagittarii is a binary star, and the brightest in the Sagittarius constellation. The name Kaus Australis refers to the southern tip of the bow.</p><table><tr><td>Apparent Magnitude</td><td>1.85</td></tr><tr><td>Spectral type</td><td>B9.5 III</td></tr><tr><td>Mass</td><td>3.515</td></tr><tr><td>Luminosity</td><td>363 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>143ly / 43.9pc</td></tr><tr><td>Temperature</td><td>9,960 K</td></tr></table>")
+      .show(3000);
+});
+$(".sephdar").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Sephdar</h4><p>Eta Sagittarii is a red giant star in the constellation Sagittarius. The name, Sephdar, comes from Arabic and means 'violent warrior'.</p><table><tr><td>Apparent Magnitude</td><td>3.1</td></tr><tr><td>Spectral type</td><td>M3.5III</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>585 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>149ly / 44pc</td></tr><tr><td>Temperature</td><td>3,600 K</td></tr></table>")
+      .show(3000);
+});
+
 
 
 
