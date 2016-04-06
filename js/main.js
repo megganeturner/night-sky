@@ -389,17 +389,185 @@ $(".sephdar").click(function(){
 
 
 
+//Capricorn
+$(".deneb-algedi").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Deneb Algedi</h4><p>Delta Capricorni, or Deneb Algedi, is a binary star system, and the brightest star within the constellation Capricorn.</p><table><tr><td>Apparent Magnitude</td><td>2.81</td></tr><tr><td>Spectral type</td><td>A7m III</td></tr><tr><td>Mass</td><td>2.0 Solar Masses</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>38.7ly / 11.87pc</td></tr><tr><td>Temperature</td><td>7,301 K</td></tr></table>")
+      .show(3000);
+});
+$(".nashira").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Nashira</h4><p>Gamma Capricorni has the traditional name Nashira, which comes from Arabic and means 'the lucky one' or 'bearer of good news'.</p><table><tr><td>Apparent Magnitude</td><td>3.69</td></tr><tr><td>Spectral type</td><td>A7mp</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>139ly / 43pc</td></tr><tr><td>Temperature</td><td>7,520 K</td></tr></table>")
+      .show(3000);
+});
+$(".epsilon-capricorni").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Epsilon Capricorni</h4><p>Epsilon Capricorni is a triple star system in the constellation Capricorn. It also has the traditional name Castra, meaning 'fort' or 'military camp' in Latin.</p><table><tr><td>Apparent Magnitude</td><td>4.51</td></tr><tr><td>Spectral type</td><td>B2.5Vpe</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>660ly / 203pc</td></tr><tr><td>Temperature</td><td>n/a</td></tr></table>")
+      .show(3000);
+});
+$(".iota-capricorni").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Iota Capricorni</h4><p>Iota Capricorni is a star in the constellation Capricornus. It is a yellow G-type giant.</p><table><tr><td>Apparent Magnitude</td><td>4.28</td></tr><tr><td>Spectral type</td><td>G7IIIFe</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>216ly / 66pc</td></tr><tr><td>Temperature</td><td>n/a</td></tr></table>")
+      .show(3000);
+});
+$(".zeta-capricorni").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Zeta Capricorni</h4><p>Zeta Capricorni is a binary star in the constellation Capricornus. It is considered one of the protypical examples of a Barium star.</p><table><tr><td>Apparent Magnitude</td><td>3.77</td></tr><tr><td>Spectral type</td><td>G8III</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>398ly / 122pc</td></tr><tr><td>Temperature</td><td>n/a</td></tr></table>")
+      .show(3000);
+});
+$(".dorsum").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Dorsum</h4><p>Theta Capricorni is a white A-type main sequence dwarf star in the constellation Capricornus. Its traditional name, Dorsum, comes from Latin and means 'the back of the goat'.</p><table><tr><td>Apparent Magnitude</td><td>4.08</td></tr><tr><td>Spectral type</td><td>A1V</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>158ly / 49pc</td></tr><tr><td>Temperature</td><td>n/a</td></tr></table>")
+      .show(3000);
+});
+$(".eta-capricorni").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Eta Capricorni</h4><p>Eta Capricorni is a binary star in the constellation Capricornus</p><table><tr><td>Apparent Magnitude</td><td>4.82</td></tr><tr><td>Spectral type</td><td>A4V</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>167ly / 51.3pc</td></tr><tr><td>Temperature</td><td>n/a</td></tr></table>")
+      .show(3000);
+});
+$(".baten-algiedi").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Baten Algiedi</h4><p>Omega Capricorni is a star in the constellation Capricornus with the traditional but seldom used name Baten Algiedi, which is Arabic for 'belly of the goat'.</p><table><tr><td>Apparent Magnitude</td><td>4.12</td></tr><tr><td>Spectral type</td><td>M0-III-IIlbBa0.2</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>630ly / 193pc</td></tr><tr><td>Temperature</td><td>n/a</td></tr></table>")
+      .show(3000);
+});
+$(".psi-capricorni").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Psi Capricorni</h4><p>Psi Capricorni is a yellow-white F-type main sequence dwarf star in the constellation Capricornus.</p><table><tr><td>Apparent Magnitude</td><td>4.13</td></tr><tr><td>Spectral type</td><td>F5 V</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>47.9ly / 14.68pc</td></tr><tr><td>Temperature</td><td>6,632 K</td></tr></table>")
+      .show(3000);
+});
+$(".rho-capricorni").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Rho Capricorni</h4><p>Rho Capricorni is a binary star in the constellation Capricornus. Sometimes, this star is called by the name Bos, meaning 'the cow' in Latin.</p><table><tr><td>Apparent Magnitude</td><td>4.73</td></tr><tr><td>Spectral type</td><td>F2 IV</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>98.7ly / 30.3pc</td></tr><tr><td>Temperature</td><td>n/a</td></tr></table>")
+      .show(3000);
+});
+$(".dabih").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Dabih</h4><p>Beta Capricorni has the traditional name Dabih, meaning 'the butcher' in Arabic. It is a double star.</p><table><tr><td>Apparent Magnitude</td><td>3.05</td></tr><tr><td>Spectral type</td><td>K0II</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>328ly / 101pc</td></tr><tr><td>Temperature</td><td>n/a</td></tr></table>")
+      .show(3000);
+});
+$(".algiedi").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Algiedi</h4><p>Alpha Capricorni is an optical double star in the constellation Capricornus. The name Algiedi is derived from Arabic and means 'the billy goat' or 'the kid', and also refers to the entire constellation of Capricornus.</p>")
+      .show(3000);
+});
+
+
+
+// Aquarius
+$(".phi-aquarii").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Phi Aquarii</h4><p>Phi Aquarii is a spectroscopic binary star system in the constellation Aquarius.</p><table><tr><td>Apparent Magnitude</td><td>4.223</td></tr><tr><td>Spectral type</td><td>M1.5 III</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>324 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>200ly / 62pc</td></tr><tr><td>Temperature</td><td>3,899 K</td></tr></table>")
+      .show(3000);
+});
+$(".lambda-aquarii").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Lambda Aquarii</h4><p>Lambda Aquarii has the obscure traditional names Hydor and Ekkhysis, from the ancient Greek words for 'water' and 'outpouring'.</p><table><tr><td>Apparent Magnitude</td><td>3.722</td></tr><tr><td>Spectral type</td><td>M2.5 IIIa</td></tr><tr><td>Mass</td><td>3.6 Solar Masses</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>390ly / 118pc</td></tr><tr><td>Temperature</td><td>3,835 K</td></tr></table>")
+      .show(3000);
+});
+$(".eta-aquarii").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Eta Aquarii</h4><p>Eta Aquarii is a star in the Aquarius constellation which is visible to the naked eye.</p><table><tr><td>Apparent Magnitude</td><td>4.04</td></tr><tr><td>Spectral type</td><td>B9IV-Vn</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>168ly / 51.5pc</td></tr><tr><td>Temperature</td><td>11,219 K</td></tr></table>")
+      .show(3000);
+});
+$(".sadaltager").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Sadaltager</h4><p>Zeta Aquarii is a binary star, or possible a triple star system with the traditional name Sadaltager, meaning 'luck of the merchant' in Arabic. It is the central star of the 'water jar' asterism.</p><table><tr><td>Apparent Magnitude</td><td>3.65</td></tr><tr><td>Spectral type</td><td>F3 V</td></tr><tr><td>Mass</td><td>1.72 Solar Masses</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>92ly / 28.2pc</td></tr><tr><td>Temperature</td><td>n/a</td></tr></table>")
+      .show(3000);
+});
+$(".delta-aquarii").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Delta Aquarii</h4><p>Delta Aquarii is the third-brightest star in the constellation Aquarius. It has the traditional name Skat, which has also been used for Beta Pegasi.</p><table><tr><td>Apparent Magnitude</td><td>3.3</td></tr><tr><td>Spectral type</td><td>A3 V</td></tr><tr><td>Mass</td><td>2 Solar Masses</td></tr><tr><td>Luminosity</td><td>26 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>160ly / 49pc</td></tr><tr><td>Temperature</td><td>9000 K</td></tr></table>")
+      .show(3000);
+});
+$(".pi-aquarii").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Pi Aquarii</h4><p>Pi Aquarii is a binary star in the constellation of Aqaurius. It shares the traditional name Seat with Delta Aquarii.</p><table><tr><td>Apparent Magnitude</td><td>4.66</td></tr><tr><td>Spectral type</td><td>B1 Ve</td></tr><tr><td>Mass</td><td>10.7 Solar Masses</td></tr><tr><td>Luminosity</td><td>7,302 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>780ly / 240pc</td></tr><tr><td>Temperature</td><td>27,094 K</td></tr></table>")
+      .show(3000);
+});
+$(".sadachbia").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Sadachbia</h4><p>Gamma Aquarii has the traditional name Sadachbia, which comes from an Arabic expression meaning 'luck of the homes (tents)'. It is one of the brighter members of the constellation.</p><table><tr><td>Apparent Magnitude</td><td>3.849</td></tr><tr><td>Spectral type</td><td>A0 V</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>164ly / 50pc</td></tr><tr><td>Temperature</td><td>10,500 K</td></tr></table>")
+      .show(3000);
+});
+$(".sadalmelik").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Sadalmelik</h4><p>Alpha Aquarii is a single star in the Aquarius. It has the traditional name Sadalmelik, which is derived from Arabic for 'luck of the king'. It is the second brightest star in Aquarius.</p><table><tr><td>Apparent Magnitude</td><td>2.942</td></tr><tr><td>Spectral type</td><td>G2 lb</td></tr><tr><td>Mass</td><td>6.5 Solar Masses</td></tr><tr><td>Luminosity</td><td>3000 Solar Luminosity </td></tr><tr><td>Distance from Earth</td><td>520ly / 161pc</td></tr><tr><td>Temperature</td><td>5,210 K</td></tr></table>")
+      .show(3000);
+});
+$(".theta-aquarii").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Theta Aquarii</h4><p>Theta Aquarii is a star in Aquarius which is visible to the naked eye. It has the traditional name Ancha, which is medieval Latin for 'the haunch'.</p><table><tr><td>Apparent Magnitude</td><td>4.175</td></tr><tr><td>Spectral type</td><td>G8 III-IV</td></tr><tr><td>Mass</td><td>2.39 Solar Masses</td></tr><tr><td>Luminosity</td><td>72 Solar Luminosity </td></tr><tr><td>Distance from Earth</td><td>187ly / 57.5pc</td></tr><tr><td>Temperature</td><td>4,864 K</td></tr></table>")
+      .show(3000);
+});
+$(".iota-aquarii").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Iota Aquarii</h4><p>Iota Aquarii is a star in Aquarius which is visible to the naked eye.</p><table><tr><td>Apparent Magnitude</td><td>4.279</td></tr><tr><td>Spectral type</td><td>B8 V</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>175ly / 53.7pc</td></tr><tr><td>Temperature</td><td>11,284 K</td></tr></table>")
+      .show(3000);
+});
+$(".sadalsuud").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div>   <h4>Sadalsuud</h4><p>Beta Aquarii is a double star, and the brightest in Aquarius. The traditional name Sadalsuud comes from an Arabic expression and means 'luck of lucks'.</p><table><tr><td>Apparent Magnitude</td><td>2.87</td></tr><tr><td>Spectral type</td><td>G0 lb</td></tr><tr><td>Mass</td><td>6 Solar Masses</td></tr><tr><td>Luminosity</td><td>2,300 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>540ly / 165pc</td></tr><tr><td>Temperature</td><td>5,700 K</td></tr></table>")
+      .show(3000);
+});
+$(".epsilon-aquarii").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Epsilon Aquarii</h4><p>Epsilon Aquarii is a visible star in the Aquarius constellation, with the traditional name Albali, which means 'the swallower' in Arabic.</p><table><tr><td>Apparent Magnitude</td><td>3.77</td></tr><tr><td>Spectral type</td><td>A1 V</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>208ly / 63.7pc</td></tr><tr><td>Temperature</td><td>9,470 K</td></tr></table>")
+      .show(3000);
+});
+
+
+// Pisces
+$(".tau-piscium").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Tau Piscium</h4><p>Tau Piscium is an orange K-type giant in the Pisces constellation.</p><table><tr><td>Apparent Magnitude</td><td>4.51</td></tr><tr><td>Spectral type</td><td>K0III-IV</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>162ly / 50pc</td></tr><tr><td>Temperature</td><td>n/a</td></tr></table>")
+      .show(3000);
+});
+$(".upsilon-piscium").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Upsilon Piscium</h4><p>Upsilon Piscium is a bluish-white star in the Pisces constellation.</p><table><tr><td>Apparent Magnitude</td><td>4.752</td></tr><tr><td>Spectral type</td><td>A3V</td></tr><tr><td>Mass</td><td>1 Solar Mass</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>310ly / 95pc</td></tr><tr><td>Temperature</td><td>9000 K</td></tr></table>")
+      .show(3000);
+});
+$(".phi-piscium").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Phi Piscium</h4><p>Phi Piscium is a binary star system in the Pisces constellation.</p><table><tr><td>Apparent Magnitude</td><td>4.676</td></tr><tr><td>Spectral type</td><td>K0III</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>380ly / 120pc</td></tr><tr><td>Temperature</td><td>4000 K</td></tr></table>")
+      .show(3000);
+});
+$(".psi-piscium").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Psi Piscium</h4><p>Psi Piscium is a binary star system in the Pisces constellation.</p><table><tr><td>Apparent Magnitude</td><td>5.33</td></tr><tr><td>Spectral type</td><td>A1Vn</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>238ly / 73pc</td></tr><tr><td>Temperature</td><td>n/a</td></tr></table>")
+      .show(3000);
+});
+$(".kullat-nunu").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Kullat Nunu</h4><p>Eta Piscium is the brightest star in the constellation Pisces. The star's obscure traditional name of Kullat Nunu comes from Babulonian, meaning a bucket of fish.</p><table><tr><td>Apparent Magnitude</td><td>3.62</td></tr><tr><td>Spectral type</td><td>G7IIIa</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>294ly / 90pc</td></tr><tr><td>Temperature</td><td>n/a</td></tr></table>")
+      .show(3000);
+});
+$(".omicron-piscium").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Omicron Piscium</h4><p>Eta Piscium is a star in the Pisces constellation. It has teh traditional name of Torcularis Septentrionalis.</p><table><tr><td>Apparent Magnitude</td><td>4.26</td></tr><tr><td>Spectral type</td><td>G8III</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>142ly / 43.5pc</td></tr><tr><td>Temperature</td><td>n/a</td></tr></table>")
+      .show(3000);
+});
+$(".alrescha").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Alrescha</h4><p>Alpha Piscium is a double star in the Pisces constellation. The two stars take more than 700 years to orbit one another. The traditional name Alrescha comes from Arabic and means 'the well rope'.</p><table><tr><td>Apparent Magnitude</td><td>3.82</td></tr><tr><td>Spectral type</td><td>A0pSiSr</td></tr><tr><td>Mass</td><td>2.3 Solar Masses</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>139ly / 46.2pc</td></tr><tr><td>Temperature</td><td>n/a</td></tr></table>")
+      .show(3000);
+});
+$(".nu-piscium").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Nu Piscium</h4><p>Nu Piscium is an orange giant star in the constellation Pisces.</p><table><tr><td>Apparent Magnitude</td><td>4.448</td></tr><tr><td>Spectral type</td><td>K3IIIlb</td></tr><tr><td>Mass</td><td>1.9 Solar Masses</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>370ly / 113pc</td></tr><tr><td>Temperature</td><td>n/a</td></tr></table>")
+      .show(3000);
+});
+$(".epsilon-piscium").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Nu Piscium</h4><p>Nu Piscium is an orange giant star in the constellation Pisces.</p><table><tr><td>Apparent Magnitude</td><td>4.448</td></tr><tr><td>Spectral type</td><td>K0 III</td></tr><tr><td>Mass</td><td>2.27 Solar Masses</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>182ly / 55.7pc</td></tr><tr><td>Temperature</td><td>n/a</td></tr></table>")
+      .show(3000);
+});
+$(".delta-piscium").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Delta Piscium</h4><p>Delta Piscium is a binary star in the constellation Pisces.</p><table><tr><td>Apparent Magnitude</td><td>4.43</td></tr><tr><td>Spectral type</td><td>K5III</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>305ly / 93.5pc</td></tr><tr><td>Temperature</td><td>n/a</td></tr></table>")
+      .show(3000);
+});
+$(".omega-piscium").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Omega Piscium</h4><p>Omega Piscium is a subgiant/dwarf star in the Pisces constellation.</p><table><tr><td>Apparent Magnitude</td><td>4.036</td></tr><tr><td>Spectral type</td><td>F4IV</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>106ly / 32.5pc</td></tr><tr><td>Temperature</td><td>6,600</td></tr></table>")
+      .show(3000);
+});
+$(".iota-piscium").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Iota Piscium</h4><p>Iota Piscium is an F-type main sequence star in the constellation Pisces. Though it is somewhat larger and brighter than the Sun, it is still within the range considered to have the potential for Earth-like planets.</p><table><tr><td>Apparent Magnitude</td><td>4.13</td></tr><tr><td>Spectral type</td><td>F7 V</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>3.5 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>44.73ly / 13.71pc</td></tr><tr><td>Temperature</td><td>6,288</td></tr></table>")
+      .show(3000);
+});
+$(".theta-piscium").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Theta Piscium</h4><p>Theta Piscium is an orange-red giant star in the Pisces constellation. It is brighter, yet cooler than our sun.</p><table><tr><td>Apparent Magnitude</td><td>4.27</td></tr><tr><td>Spectral type</td><td>K1 III</td></tr><tr><td>Mass</td><td>1.54 Solar Masses</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>159ly / 49pc</td></tr><tr><td>Temperature</td><td>5000</td></tr></table>")
+      .show(3000);
+});
+$(".gamma-piscium").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Gamma Piscium</h4><p>Gamma Piscium is a yellow giant star in the Pisces constellation. It is the second brightest star in the constellation.</p><table><tr><td>Apparent Magnitude</td><td>3.699</td></tr><tr><td>Spectral type</td><td>G9 III</td></tr><tr><td>Mass</td><td>1.03 Solar Masses</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>138ly / 42.3pc</td></tr><tr><td>Temperature</td><td>4,885 K</td></tr></table>")
+      .show(3000);
+});
+$(".kappa-piscium").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Kappa Piscium</h4><p>Kappa Piscium is a multiple star in the constellation Pisces.</p><table><tr><td>Apparent Magnitude</td><td>4.927</td></tr><tr><td>Spectral type</td><td>A0pCrSrSi</td></tr><tr><td>Mass</td><td>n/a</td></tr><tr><td>Luminosity</td><td>n/a</td></tr><tr><td>Distance from Earth</td><td>162ly / 50pc</td></tr><tr><td>Temperature</td><td>n/a</td></tr></table>")
+      .show(3000);
+});
+$(".lambda-piscium").click(function(){
+   $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Lambda Piscium</h4><p>Lambda Piscium is a bluish white star which forms the southeast corner of the 'Circlet' in Pisces.</p><table><tr><td>Apparent Magnitude</td><td>4.49</td></tr><tr><td>Spectral type</td><td>A7V</td></tr><tr><td>Mass</td><td>1.806</td></tr><tr><td>Luminosity</td><td>13 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>101ly / 30.9pc</td></tr><tr><td>Temperature</td><td>7,734 K</td></tr></table>")
+      .show(3000);
+});
+
+
+
+
+
+
 // if (window.pageXOffset == 5px){
 //    window.scrollBy(100vw, 0);
 // }
 
 
-
-// $(document).scroll(function(){
-//    $(".star.third").animate({
-//       box-shadow: "0 0 10px 10px #fff",
-//    }, 5000)
-// });
 
 
 $(function() {
