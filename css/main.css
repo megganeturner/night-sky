@@ -1,11 +1,11 @@
 #container {
-   width: 50000px;
+   width: calc(14 * 100vw);
 }
 /*.gallery {
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
-  width: 1000px;  
+  width: 1000px;
 }*/
 #top {
    background-size: cover;
@@ -24,7 +24,7 @@ h1,
 h2,
 h3,
 h4 {
-   font-family: inconsolata;
+   font-family: inconsolata, monospace;
    color: #ffffff;
    display: flex;
    justify-content: center;
@@ -40,7 +40,7 @@ h4 {
    justify-content: center;
 }
 #exit span {
-   font-family: inconsolata;
+   font-family: inconsolata, monospace;
    color: #fff;
    text-align: left;
    font-size: 20px;
@@ -53,7 +53,7 @@ h4 {
 }
 
 p {
-   font-family: inconsolata;
+   font-family: inconsolata, monospace;
    font-weight: normal;
    color: #ffffff;
    display: flex;
@@ -87,7 +87,7 @@ table {
    width: 20vw;
 }
 td {
-   font-family: inconsolata;
+   font-family: inconsolata, monospace;
    color: #fff;
    font-weight: bold;
    border-bottom: 1px solid white;
@@ -953,7 +953,7 @@ li + li {
 }
 .bottomnav a {
    text-decoration: none;
-   font-family: inconsolata;
+   font-family: inconsolata, monospace;
    font-size: 10px;
    color: #fff;
    text-transform: uppercase;
