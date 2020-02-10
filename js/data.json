@@ -1,5 +1,6 @@
-{
-  "aries": {
+[
+  {
+    "name": "aries",
     "description": "Aries is the first astrological sign in the Zodiac. 'Aries', meaning 'ram', is a symbol based on Chrysomallus, the flying ram that provided the Golden Fleece.",
     "stars": {
       "botein": {
@@ -57,7 +58,8 @@
       }
     }
   },
-  "taurus": {
+  {
+    "name": "taurus",
     "description": "Taurus is the second astrological sign in the Zodiac. Taurus is Latin for \"the Bull\", and its symbol is based upon the Cretan Bull, the white bull that fathered the Minotaur who was killed by Theseus.",
     "stars": {
       "omicron-tauri": {
@@ -170,7 +172,8 @@
       }
     }
   },
-  "gemini": {
+  {
+    "name": "gemini",
     "description": "Gemini is the third astrological sign in the Zodiac. 'Gemini' is Latin for 'twins', and it is associated with the twins Castor and Pollux in Greek mythology.",
     "stars": {
       "theta-geminorum": {
@@ -322,7 +325,8 @@
       }
     }
   },
-  "cancer": {
+  {
+    "name": "cancer",
     "description": "Cancer is the fourth astrological sign in the Zodiac. The symbol of the crab is based on the Karkinos, a giant crab that harassed Heracles during his fight with the Hydra.",
     "stars": {
       "iota-cancri": {
@@ -373,7 +377,8 @@
       }
     }
   },
-  "leo": {
+  {
+    "name": "leo",
     "description": "Leo is the fifth astrological sign in the Zodiac. The symbol of the lion is based on the Nemean lion, a lion with an impenetrable hide.",
     "stars": {
       "rasalas": {
@@ -474,7 +479,8 @@
       }
     }
   },
-  "virgo": {
+  {
+    "name": "virgo",
     "description": "Virgo is the sixth astrological sign in the Zodiac. The symbol of the maiden is based on Astraea. Astraea was the last immortal to abandon Earth at the end of the Silver Age, when the gods fled to Olympus.",
     "stars": {
       "vindemiatrix": {
@@ -591,7 +597,8 @@
       }
     }
   },
-  "libra": {
+  {
+    "name": "libra",
     "description": "Libra is the seventh astrological sign in the Zodiac. The symbol of the scales is based on the Scales of Justice held by Themis, the Greek personification of divine law and custom. Libra is symbolised by the gryphon, a mythological creature with the head, wings and talons of an eagle and hind legs of a lion.",
     "stars": {
       "zubeneschemali": {
@@ -635,7 +642,8 @@
       }
     }
   },
-  "scorpio": {
+  {
+    "name": "scorpio",
     "description": "Scorpio is the eighth astrological sign in the Zodiac. The symbol of the scorpion is based on Scorpius, a giant scorpion sent by Gaia to kill Orion.",
     "stars": {
       "jabbah": {
@@ -789,7 +797,8 @@
       }
     }
   },
-  "sagittarius": {
+  {
+    "name": "sagittarius",
     "description": "Sagittarius is the ninth astrological sign in the Zodiac. The symbol of the archer is based on the centaur Chiron, who mentored Achilles in archery. Sagittarius, half human and half-norse, is the centaur of mythology, the learned healer who forms a bridge between earth and Heaven. Also known as the Archer, Sagittarius is represented by the symbol of bow and arrow.",
     "stars": {
       "polis": {
@@ -892,7 +901,8 @@
       }
     }
   },
-  "capricorn": {
+  {
+    "name": "capricorn",
     "description": "Capricorn is the tenth astrological sign in the Zodiac. Its symbol is based on the Sumerian primordial god of wisdom and waters, Enki, with the head and upper body of a mountain goat, and the lower body and tail of a fish.",
     "stars": {
       "daneb-algedi": {
@@ -999,7 +1009,8 @@
       }
     }
   },
-  "aquarius": {
+  {
+    "name": "aquarius",
     "description": "Aquarius is the eleventh astrological sign in the Zodiac. The water carrier represented by the zodiacal constellation Aquarius is Ganymede, a beautiful Phrygian youth. Ganymede was the son of Tros, king of Troy. While tending to his father's flocks on Mount Ida, Ganymede was spotted by Jupiter. The king of gods became enamored of the boy and flew doen to the mountain in the form of a large bird, whisking Ganymede away to the heavens. Ever since, the boy has served as cupbearer to the gods.",
     "stars": {
       "phi-aquarii": {
@@ -1124,7 +1135,8 @@
       }
     }
   },
-  "pisces": {
+  {
+    "name": "pisces",
     "description": "Pisces is the twelfth astrological sign in the Zodiac. The symbol of the fish is derived from the ichthyocentaurs, who aided Aphrodite when she was born from the sea.",
     "stars": {
       "tau-piscium": {
@@ -1273,4 +1285,4 @@
       }
     }
   }
-}
+]
