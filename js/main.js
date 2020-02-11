@@ -1,31 +1,120 @@
-// $(document).on("click", "#exit", function () {
-//    $(this).parent().fadeOut();
-// });
-
-// $(".star").hover(function(){
-//    $("#moreinfo").show(1000);
-//    }, function(){
-//    $("#moreinfo").fadeOut();
-// });
-//
-//
-// $(".lambda-piscium").click(function(){
-//    $("#starinfo").html("<div id ='exit'><span>x</span></div><h4>Lambda Piscium</h4><p>Lambda Piscium is a bluish white star which forms the southeast corner of the 'Circlet' in Pisces.</p><table><tr><td>Apparent Magnitude</td><td>4.49</td></tr><tr><td>Spectral type</td><td>A7V</td></tr><tr><td>Mass</td><td>1.806</td></tr><tr><td>Luminosity</td><td>13 Solar Luminosity</td></tr><tr><td>Distance from Earth</td><td>101ly / 30.9pc</td></tr><tr><td>Temperature</td><td>7,734 K</td></tr></table>")
-//       .show(3000);
-// });
+// TODO refactor to remove jQuery
+$(document).on("click", "#exit", function () {
+  $(this).parent().html('');
+  $(this).parent().fadeOut();
+});
 
 
-document.addEventListener("DOMContentLoaded", function() {
-  const documentContainer = document.getElementById("container");
+document.addEventListener('DOMContentLoaded', function() {
+  const documentContainer = document.getElementById('container');
 
   loadJSON('js/data.json', function (data) {
-    console.log('data', data);
     data.forEach((constellation) => {
       const constellationContainerEl = document.createElement('div');
       constellationContainerEl.id = constellation.name;
+      constellationContainerEl.className = 'constellationContainer';
 
       const constellationEl = document.createElement('div');
       constellationEl.className = 'constellation';
+
+      constellation.stars.forEach((star) => {
+        const starEl = document.createElement('div');
+        starEl.className = `star ${star.name}`;
+        starEl.style.top = `${star.top}px`;
+        starEl.style.left = `${star.left}px`;
+        constellationEl.appendChild(starEl);
+
+        starEl.onclick = function () {
+          const starInfoContainer = document.getElementById('starinfo');
+
+          const exitEl = document.createElement('div');
+          exitEl.id = 'exit';
+          const exitElSpan = document.createElement('span');
+          exitElSpan.appendChild(document.createTextNode('x'));
+          exitEl.appendChild(exitElSpan);
+
+          const infoTitle = document.createElement('h4');
+          infoTitle.appendChild(document.createTextNode(star.name));
+
+          const infoDesc = document.createElement('p');
+          infoDesc.appendChild(document.createTextNode(star.description));
+
+          const infoTable = document.createElement('table');
+
+          const apMagnitudeRow = document.createElement('tr');
+          const apMagnitudeKey = document.createElement('td');
+          const apMagnitudeVal = document.createElement('td');
+          apMagnitudeKey.appendChild(document.createTextNode('Apparent Magnitude'));
+          apMagnitudeVal.appendChild(document.createTextNode(star.apparentMagnitude));
+
+          apMagnitudeRow.appendChild(apMagnitudeKey);
+          apMagnitudeRow.appendChild(apMagnitudeVal);
+
+          const specTypeRow = document.createElement('tr');
+          const specTypeKey = document.createElement('td');
+          const specTypeVal = document.createElement('td');
+          specTypeKey.appendChild(document.createTextNode('Spectral Type'));
+          specTypeVal.appendChild(document.createTextNode(star.spectralType));
+
+          specTypeRow.appendChild(specTypeKey);
+          specTypeRow.appendChild(specTypeVal);
+
+          const massRow = document.createElement('tr');
+          const massKey = document.createElement('td');
+          const massVal = document.createElement('td');
+          massKey.appendChild(document.createTextNode('Mass'));
+          massVal.appendChild(document.createTextNode(`${star.mass ? star.mass : 'n/a'} Solar Masses`));
+
+          massRow.appendChild(massKey);
+          massRow.appendChild(massVal);
+
+          const luminosityRow = document.createElement('tr');
+          const luminosityKey = document.createElement('td');
+          const luminosityVal = document.createElement('td');
+          luminosityKey.appendChild(document.createTextNode('Luminosity'));
+          luminosityVal.appendChild(document.createTextNode(star.luminosity ? star.luminosity : 'n/a'));
+
+          luminosityRow.appendChild(luminosityKey);
+          luminosityRow.appendChild(luminosityVal);
+
+          const distanceRow = document.createElement('tr');
+          const distanceKey = document.createElement('td');
+          const distanceVal = document.createElement('td');
+          distanceKey.appendChild(document.createTextNode('Distance from Earth'));
+          distanceVal.appendChild(document.createTextNode(`${star.distanceFromEarth}ly`));
+
+          distanceRow.appendChild(distanceKey);
+          distanceRow.appendChild(distanceVal);
+
+          const tempRow = document.createElement('tr');
+          const tempKey = document.createElement('td');
+          const tempVal = document.createElement('td');
+          tempKey.appendChild(document.createTextNode('Temperature'));
+          tempVal.appendChild(document.createTextNode(`${star.temperature}K`));
+
+          tempRow.appendChild(tempKey);
+          tempRow.appendChild(tempVal);
+
+
+          infoTable.appendChild(apMagnitudeRow);
+          infoTable.appendChild(specTypeRow);
+          infoTable.appendChild(massRow);
+          infoTable.appendChild(luminosityRow);
+          infoTable.appendChild(distanceRow);
+          infoTable.appendChild(tempRow);
+
+
+          starInfoContainer.appendChild(exitEl);
+          starInfoContainer.appendChild(infoTitle);
+          starInfoContainer.appendChild(infoDesc);
+          starInfoContainer.appendChild(infoTable);
+
+          // TODO refactor to remove jQuery
+          // starInfoContainer.style.display = 'block';
+          $("#starinfo").show(2000);
+        }
+
+      });
 
       const infoContainerEl = document.createElement('div');
       infoContainerEl.className = 'info';
@@ -43,35 +132,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
       documentContainer.appendChild(constellationContainerEl);
     })
-
-    // data.forEach((project) => {
-    //   const projectEl = document.createElement('div');
-    //   projectEl.className = 'project';
-    //
-    //   const imageLink = document.createElement('a');
-    //   imageLink.setAttribute('href', project.siteLink);
-    //   imageLink.setAttribute('target', '_blank');
-    //
-    //   const imageEl = document.createElement('img');
-    //   imageEl.setAttribute('src', project.imgSrc);
-    //   imageEl.className = 'featureImage';
-    //   imageLink.appendChild(imageEl);
-    //
-    //   const descEl = document.createElement('p');
-    //   descEl.appendChild(document.createTextNode(project.description));
-    //
-    //   rightCol.appendChild(descEl);
-    //   rightCol.appendChild(linksEl);
-    //
-    //   projectList.appendChild(projectEl);
-    // });
   });
 })
-
-
-// if (window.pageXOffset == 5px){
-//    window.scrollBy(100vw, 0);
-// }
 
 function loadJSON(url, callback) {
   const request = new XMLHttpRequest();
@@ -93,7 +155,7 @@ function loadJSON(url, callback) {
 
 
 
-
+// TODO refactor to remove jQuery
 $(function() {
    $('nav a').bind('click',function(event){
       var $anchor = $(this);
