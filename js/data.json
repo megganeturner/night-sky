@@ -2,8 +2,9 @@
   {
     "name": "aries",
     "description": "Aries is the first astrological sign in the Zodiac. 'Aries', meaning 'ram', is a symbol based on Chrysomallus, the flying ram that provided the Golden Fleece.",
-    "stars": {
-      "botein": {
+    "stars": [
+      {
+        "name": "botein",
         "description": "Botein is a star in the northern constellation Aries. The name is derived from the Arabic word for 'belly'.",
         "apparentMagnitude": 4.349,
         "spectralType": "K2 III",
@@ -14,7 +15,8 @@
         "left": -150,
         "top": 250
       },
-      "hamal": {
+      {
+        "name": "hamal",
         "description": "Hamal is the brightest star in the Aries constellation, and among the brightest stars in the night sky. It is a giant star that may host an orbiting planet with a mass greater than Jupiter.",
         "apparentMagnitude": 2.00,
         "spectralType": "K1 IIIb",
@@ -25,7 +27,8 @@
         "left": 75,
         "top": 175
       },
-      "sheraton": {
+      {
+        "name": "sheraton",
         "description": "Sheratan is a binary star in the Aries constellation. It marks the Ram's second horn.",
         "apparentMagnitude": 2.655,
         "spectralType": "A5 V",
@@ -36,7 +39,8 @@
         "left": 140,
         "top": 240
       },
-      "mesarthim": {
+      {
+        "name": "mesarthim",
         "description": "Mesarthim is a binary star system in the northern constellation of Aries.",
         "apparentMagnitude": 3.86,
         "spectralType": "B9 V",
@@ -45,7 +49,8 @@
         "left": 142,
         "top": 270
       },
-      "41ari": {
+      {
+        "name": "41ari",
         "description": "41 Arietes (sometimes abbreviated to 41 Ari), is a binary star in the northern constellation of Aries.",
         "apparentMagnitude": 3.63,
         "spectralType": "B8 Vn",
@@ -56,13 +61,14 @@
         "left": -80,
         "top": 130
       }
-    }
+    ]
   },
   {
     "name": "taurus",
     "description": "Taurus is the second astrological sign in the Zodiac. Taurus is Latin for \"the Bull\", and its symbol is based upon the Cretan Bull, the white bull that fathered the Minotaur who was killed by Theseus.",
-    "stars": {
-      "omicron-tauri": {
+    "stars": [
+      {
+        "name": "omicron-tauri",
         "description": "Omicron Tauri</h4><p>Omicron Tauri is a binary star system with two components orbiting each other over a period of 1655 days.",
         "apparentMagnitude": 4.875,
         "spectralType": "B2 V",
@@ -72,7 +78,8 @@
         "left": 200,
         "top": 90
       },
-      "xi-tauri": {
+      {
+        "name": "xi-tauri",
         "description": "Xi Tauri is a hierarchical quadruple system in the contstellation Taurus. Its proper name, Ushakaron, is Akkadian for the 'Exactor of Justice and Retribution'.",
         "apparentMagnitude": 3.73,
         "spectralType": "B8Vn",
@@ -81,7 +88,8 @@
         "left": 185,
         "top": 95
       },
-      "pectus-tauri": {
+      {
+        "name": "pectus-tauri",
         "description": "Pectus Tauri, or Lambda Tauri, is a triple star system in the constellation Taurus. Pectus Tauri translates to 'The Bull Chest'.",
         "apparentMagnitude": 3.47,
         "spectralType": "B3 V",
@@ -92,7 +100,8 @@
         "left": 100,
         "top": 140
       },
-      "gamma-tauri": {
+      {
+        "name": "gamma-tauri",
         "description": "Gamma Tauri, or Hyadum I, is a star which is approximately 470 million years old. It has passed through the main sequence stage and is now on the red giant branch.",
         "apparentMagnitude": 3.654,
         "spectralType": "G8III",
@@ -103,7 +112,8 @@
         "left": 40,
         "top": 160
       },
-      "theta-tauri": {
+      {
+        "name": "theta-tauri",
         "description": "Theta Tauri is a double star in the Taurus constellation and a member of the Hyades open cluster.",
         "apparentMagnitude": 3.84,
         "spectralType": "K0 IIIb",
@@ -111,13 +121,15 @@
         "left": 10,
         "top": 175
       },
-      "delta-tauri": {
+      {
+        "name": "delta-tauri",
         "description": "Delta Tauris is the name shared by three star systems in the constellation Taurus, which are also members of the Hyades star cluster.",
         "distanceFromEarth": 146,
         "left": -10,
         "top": 150
       },
-      "aldebaran": {
+      {
+        "name": "aldebaran",
         "description": "Aldebaran is the brightest star in the Taurus constellation and the fourteenth brightest star in the night sky. The name is Arabic and means 'the follower'.",
         "apparentMagnitude": 0.86,
         "spectralType": "K5III",
@@ -128,7 +140,8 @@
         "left": -30,
         "top": 185
       },
-      "epsilon-tauri": {
+      {
+        "name": "epsilon-tauri",
         "description": "Epsilon Tauri is an orange giant star in the Taurus constellation, and it is also a member of the Hyades open cluster.",
         "apparentMagnitude": 3.53,
         "spectralType": "K0III",
@@ -139,7 +152,8 @@
         "left": -40,
         "top": 151
       },
-      "t-tauri": {
+      {
+        "name": "t-tauri",
         "description": "T Tauri is a variable star, and the prototype of the T Tauri stars. Though it appears from earth to be amongst the Hyades cluster, it is actually 420 light years behind it and was not formed with the rest of them.",
         "apparentMagnitude": 10.27,
         "spectralType": "G5V:e",
@@ -148,7 +162,8 @@
         "left": -100,
         "top": 154
       },
-      "zeta-tauri": {
+      {
+        "name": "zeta-tauri",
         "description": "Zeta Tauri is a binary star in the Taurus constellation. The two components that make up Zeta Tauri are orbiting so close to each other that they cannot be resolved with a telescope.",
         "apparentMagnitude": 3.01,
         "spectralType": "B2 IIIpe",
@@ -159,7 +174,8 @@
         "left": -200,
         "top": 260
       },
-      "elnath": {
+      {
+        "name": "elnath",
         "description": "Elnath is the second brightest star in the Taurus constellation. The name is a reference to 'the butting' of the bull's horns.",
         "apparentMagnitude": 1.65,
         "spectralType": "B7III",
@@ -170,20 +186,22 @@
         "left": -240,
         "top": 185
       }
-    }
+    ]
   },
   {
     "name": "gemini",
     "description": "Gemini is the third astrological sign in the Zodiac. 'Gemini' is Latin for 'twins', and it is associated with the twins Castor and Pollux in Greek mythology.",
-    "stars": {
-      "theta-geminorum": {
+    "stars": [
+      {
+        "name": "theta-geminorum",
         "description": "Theta Geminorum is is a binary star with components of magnitudes 3.60 and 5.18.",
         "spectralType": "A3III",
         "distanceFromEarth": 206,
         "left": 30,
         "top": 50
       },
-      "castor": {
+      {
+        "name": "castor",
         "description": "Castor is the second brightest star in the Gemini constellation and one of the brightest stars in the night sky. The name Castor refers specifically to Castor, one of the twin sons of Zeus and Leda.",
         "apparentMagnitude": 1.93,
         "spectralType": "A1V",
@@ -193,7 +211,8 @@
         "left": -70,
         "top": 80
       },
-      "tau-geminorum": {
+      {
+        "name": "tau-geminorum",
         "description": "Tau Geminorum is a star in the Gemini constellation which is visible to the naked eye under suitable good seeing conditions.",
         "apparentMagnitude": 4.42,
         "spectralType": "K2 III",
@@ -204,7 +223,8 @@
         "left": -10,
         "top": 100
       },
-      "pollux": {
+      {
+        "name": "pollux",
         "description": "Pollux is the closest giant star to the Sun. Since 1943, the spectrum of Pollux has served as one of the stable anchor points by which other stars are classified.",
         "apparentMagnitude": 1.14,
         "spectralType": "K0 III",
@@ -215,7 +235,8 @@
         "left": -130,
         "top": 120
       },
-      "propus": {
+      {
+        "name": "propus",
         "description": "Propus is a triple star system in the constellation Gemini. Its traditional name, Propus, comes from Greek, meaning forward foot.",
         "apparentMagnitude": 3.15,
         "spectralType": "M3IIIab",
@@ -223,7 +244,8 @@
         "left": -60,
         "top": 125
       },
-      "u-geminorum": {
+      {
+        "name": "u-geminorum",
         "description": "U Geminorum is an archetypal example of a dwarf nova. The binary star system consists of a white dwarf closely orbiting a red dwarf. Roughly every 100 days it undergoes an outburst that greatly increases its brightness.",
         "apparentMagnitude": "14.1 - 15.0 (quiet), 9.0 (outburst)",
         "spectralType": "sd:Be+",
@@ -231,7 +253,8 @@
         "left": -100,
         "top": 130
       },
-      "kappa-geminorum": {
+      {
+        "name": "kappa-geminorum",
         "description": "Kappa Geminorum is a multiple star system located about 140 light years from Earth.",
         "apparentMagnitude": 3.57,
         "spectralType": "G8 IIIa",
@@ -239,7 +262,8 @@
         "left": -130,
         "top": 160
       },
-      "mebsuta": {
+      {
+        "name": "mebsuta",
         "description": "Mebsuta is one of the brightest stars in the Gemini constellation. Because it is located near the ecliptic it can be occulted by the Moon or a planet.",
         "apparentMagnitude": 3.06,
         "spectralType": "G8 lb",
@@ -250,7 +274,8 @@
         "left": 80,
         "top": 160
       },
-      "tejat-posterior": {
+      {
+        "name": "tejat-posterior",
         "description": "Mu Geminorum has the traditional name Tejat Posterior, which means back foot, because it is the foot of Castor, one of the Gemini twins.",
         "apparentMagnitude": 2.857,
         "spectralType": "M3 III",
@@ -261,7 +286,8 @@
         "left": 130,
         "top": 180
       },
-      "wasat": {
+      {
+        "name": "wasat",
         "description": "Delta Geminorum has the traditional name Wasat, which comes from the Arabic word for 'middle'. It can be seen with the naked eye, and is recognised as the bright star next to Jupiter.",
         "apparentMagnitude": 3.53,
         "spectralType": "F0 IV",
@@ -271,7 +297,8 @@
         "left": 150,
         "top": 170
       },
-      "mekbuda": {
+      {
+        "name": "mekbuda",
         "description": "Zeta Geminorum has the traditional name Mekbuda, meaning 'the lion's folded paw'. As a member of the category of variable stars known as classical Cepheids, it has a regular pulsation frequency that is determined by its mass. Because the mass allows the luminosity to be determined, the star serves as an important calibrator for the cosmic distance ladder.",
         "apparentMagnitude": 3.93,
         "spectralType": "F7lb",
@@ -282,7 +309,8 @@
         "left": -50,
         "top": 190
       },
-      "nu-geminorum": {
+      {
+        "name": "nu-geminorum",
         "description": "Nu Geminorum is a star in the constellation Gemini.",
         "apparentMagnitude": 4.14,
         "spectralType": "B6IIIe",
@@ -290,7 +318,8 @@
         "left": 210,
         "top": 0
       },
-      "gamma-geminorum": {
+      {
+        "name": "gamma-geminorum",
         "description": "Gamma Geminorum</h4><p>Gamma Geminorum is the third brightest star in the constellation Gemini. It has the traditional names Alhena and Almeisan. It is easily visible to the naked eye, even in urban regions.",
         "apparentMagnitude": 1.9,
         "spectralType": "A1.51V+",
@@ -301,7 +330,8 @@
         "left": 110,
         "top": 210
       },
-      "lambda-geminorum": {
+      {
+        "name": "lambda-geminorum",
         "description": "Lambda Geminorum is a variable star located about 95 light-years from Earth. It is around 800 million years old.",
         "apparentMagnitude": 3.571,
         "spectralType": "A3V",
@@ -312,7 +342,8 @@
         "left": 100,
         "top": 240
       },
-      "alzirr": {
+      {
+        "name": "alzirr",
         "description": "Alzirr forms one of the feet of the outline demarcating the Gemini twins. X-ray emission has been detected from this star.",
         "apparentMagnitude": 3.35,
         "spectralType": "F5 IV",
@@ -323,13 +354,14 @@
         "left": -40,
         "top": 245
       }
-    }
+    ]
   },
   {
     "name": "cancer",
     "description": "Cancer is the fourth astrological sign in the Zodiac. The symbol of the crab is based on the Karkinos, a giant crab that harassed Heracles during his fight with the Hydra.",
-    "stars": {
-      "iota-cancri": {
+    "stars": [
+      {
+        "name": "iota-cancri",
         "description": "Iota Cancri is a double star in the Cancer constellation.",
         "apparentMagnitude": 4.028,
         "spectralType": "G8Iab",
@@ -337,7 +369,8 @@
         "left": -15,
         "top": 60
       },
-      "asellus-borealis": {
+      {
+        "name": "asellus-borealis",
         "description": "Gamma Cancri has the traditional name Asellus Borealis, which is Latin for 'northern donkey colt'. It will die in about 510 million years.",
         "apparentMagnitude": 4.66,
         "spectralType": "A1IV",
@@ -347,7 +380,8 @@
         "left": -5,
         "top": 150
       },
-      "asellus-australis": {
+      {
+        "name": "asellus-australis",
         "description": "Delta Cancri is an orange giant star with the traditional name Asellus Australis, Latin for 'southern donkey colt'. It is the central star in the crab, and also a reliable signpost for finding one of the reddest stars in the sky, X Cancri.",
         "apparentMagnitude": 3.94,
         "spectralType": "K0III",
@@ -355,7 +389,8 @@
         "left": -15,
         "top": 180
       },
-      "acubens": {
+      {
+        "name": "acubens",
         "description": "Alpha Cancri is a star system in the constellation Cancer. It has the traditional name Acubens, which is Arabic for 'the claws'. Despite it being 23 times more luminous than the sun, Acubens is barely visible to the naked eye.",
         "apparentMagnitude": 4.2,
         "spectralType": "A5m",
@@ -365,7 +400,8 @@
         "left": -60,
         "top": 250
       },
-      "al-tarf": {
+      {
+        "name": "al-tarf",
         "description": "Al Tarf is the brightest star in the constellation Cancer. The name can be translated from Arabic as 'end' or 'edge'. There is evidence to suggest that a planet is orbiting Al Tarf, with an orbit of 605 days.",
         "apparentMagnitude": 3.536,
         "spectralType": "K4III",
@@ -375,13 +411,14 @@
         "left": 50,
         "top": 280
       }
-    }
+    ]
   },
   {
     "name": "leo",
     "description": "Leo is the fifth astrological sign in the Zodiac. The symbol of the lion is based on the Nemean lion, a lion with an impenetrable hide.",
-    "stars": {
-      "rasalas": {
+    "stars": [
+      {
+        "name": "rasalas",
         "description": "Mu Leonis, or Rasalas (meaning 'the northern star of the lion's head'). The star is about 3.35 billion years old, and will continue to expand and cool into a red giant in about 50 million years.",
         "apparentMagnitude": 3.88,
         "spectralType": "K2III",
@@ -389,7 +426,8 @@
         "left": 150,
         "top": 70
       },
-      "epsilon-leonis": {
+      {
+        "name": "epsilon-leonis",
         "description": "Epsilon Leonis is the fifth brightest star in the Leo constellation. The traditional name, Asad Australis means 'the southern star of the lion's head'.",
         "apparentMagnitude": 2.98,
         "spectralType": "G1 II",
@@ -400,7 +438,8 @@
         "left": 170,
         "top": 90
       },
-      "adhafera": {
+      {
+        "name": "adhafera",
         "description": "Zeta Leonis forms the second star in the blade of 'the Sickle', which is an asterism formed in the head of Leo. The traditional name, Adhafera, comes from Arabic and means 'the braid', a reference to its position in the lion's mane.",
         "apparentMagnitude": 3.33,
         "spectralType": "F0 III",
@@ -411,7 +450,8 @@
         "left": 90,
         "top": 100
       },
-      "algieba": {
+      {
+        "name": "algieba",
         "description": "Gamma Leonis, also named Algieba, is a binary star system in the Leo constellation. Algieba means the forehead in Arabic, despite the star's position in the Lion's mane",
         "apparentMagnitude": 2.08,
         "spectralType": "K0III",
@@ -422,7 +462,8 @@
         "left": 80,
         "top": 135
       },
-      "zosma": {
+      {
+        "name": "zosma",
         "description": "Delta Leonis, or Zosma, is a star in the constellation of Leo. The name Zosma means girdle in ancient Greek, referring to the star's location in its constellation, on the hip of the lion.",
         "apparentMagnitude": 2.56,
         "spectralType": "A4 V",
@@ -433,7 +474,8 @@
         "left": -70,
         "top": 132
       },
-      "eta-leonis": {
+      {
+        "name": "eta-leonis",
         "description": "Eta Leonis doesn't have a proper name. Since 1943, the spectrum of this star has served as one of the stable anchor points by which other stars are classified.",
         "apparentMagnitude": 3.486,
         "spectralType": "A0 lb",
@@ -444,7 +486,8 @@
         "left": 120,
         "top": 170
       },
-      "chort": {
+      {
+        "name": "chort",
         "description": "Theta Leonis is visible to the naked eye and is one of the brighter stars in the constellation Leo. It is much younger than the sun, with an estimated age of around 550 million years. The name, Chort, is derived from Arabic and means 'small rib'.",
         "apparentMagnitude": 3.324,
         "spectralType": "A2 V",
@@ -455,7 +498,8 @@
         "left": -70,
         "top": 190
       },
-      "denebola": {
+      {
+        "name": "denebola",
         "description": "Denebola is the third brightest star in the zodiac constellation of Leo. The star is a suspected Delta Scuti type variable star, meaning its lumniosity varies very slightly over a period of a few hours.",
         "apparentMagnitude": 2.113,
         "spectralType": "A3Vvar",
@@ -466,7 +510,8 @@
         "left": -170,
         "top": 200
       },
-      "regulus": {
+      {
+        "name": "regulus",
         "description": "Regulus is the brightest star in the constellation Leo and one of the brightest stars in the night sky. It is a multiple star system composed of four stars that are organised into two pairs.",
         "apparentMagnitude": 1.4,
         "spectralType": "B8 IVn",
@@ -477,13 +522,14 @@
         "left": 120,
         "top": 230
       }
-    }
+    ]
   },
   {
     "name": "virgo",
     "description": "Virgo is the sixth astrological sign in the Zodiac. The symbol of the maiden is based on Astraea. Astraea was the last immortal to abandon Earth at the end of the Silver Age, when the gods fled to Olympus.",
-    "stars": {
-      "vindemiatrix": {
+    "stars": [
+      {
+        "name": "vindemiatrix",
         "description": "Epsilon Virginis in the Virgo constellation has the traditional name Vindemiatrix, meaning Grape Gatherer in Greek. It is the third brightest member of Virgo.",
         "apparentMagnitude": 2.826,
         "spectralType": "G8 III",
@@ -494,7 +540,8 @@
         "left": -20,
         "top": 50
       },
-      "auva": {
+      {
+        "name": "auva",
         "description": "Delta Virginis has the traditional name Auva, which means 'barking dog'. It is bright enough to be seen with the naked eye.",
         "apparentMagnitude": 3.402,
         "spectralType": "M3 III",
@@ -505,7 +552,8 @@
         "left": -10,
         "top": 130
       },
-      "nu-virginis": {
+      {
+        "name": "nu-virginis",
         "description": "Nu Virginis is a M-type red giant in the constellation Virgo.",
         "apparentMagnitude": 4.04,
         "spectralType": "M1IIIab",
@@ -515,7 +563,8 @@
         "left": 140,
         "top": 115
       },
-      "zavijava": {
+      {
+        "name": "zavijava",
         "description": "Beta Virginis is a star in the constellation Virgo. Despite being the beta star of the constellation, it is only the fifth star in order of brightness.",
         "apparentMagnitude": 3.604,
         "spectralType": "F9 V",
@@ -526,7 +575,8 @@
         "left": 120,
         "top": 155
       },
-      "zaniah": {
+      {
+        "name": "zaniah",
         "description": "Eta Virginis has the traditional name Zaniah, which comes from the Arabic word for 'corner'. Although the star looks single, it is actually a very close triple star system, which is bright enough to be seen with the naked eye in dark skies.",
         "apparentMagnitude": 3.89,
         "spectralType": "A2 V",
@@ -536,7 +586,8 @@
         "left": 50,
         "top": 170
       },
-      "porrima": {
+      {
+        "name": "porrima",
         "description": "Gamma Virginis is a binary star system in the constellation Virgo. The traditional name Porrima is an alternative name of Antevorta, one of the ancient Roman goddesses of prohpecy.",
         "apparentMagnitude": 2.74,
         "spectralType": "F0 V",
@@ -546,7 +597,8 @@
         "left": 0,
         "top": 180
       },
-      "tau-virginis": {
+      {
+        "name": "tau-virginis",
         "description": "Tau Virginis is a star system in the constellation Virgo.",
         "apparentMagnitude": 4.23,
         "spectralType": "A3V",
@@ -554,7 +606,8 @@
         "left": -150,
         "top": 180
       },
-      "heze": {
+      {
+        "name": "heze",
         "description": "Zeta Virginis is a star in the Virgo constellation which is visible to the naked eye. This half billion year old star's traditional name, Heze, is of unclear origin.",
         "apparentMagnitude": 3.376,
         "spectralType": "A3 V",
@@ -565,7 +618,8 @@
         "left": -100,
         "top": 200
       },
-      "syrma": {
+      {
+        "name": "syrma",
         "description": "Iota Virginis is a yellow star in the Virgo constellation. The traditional name, Syrma, comes from the Arabic word for 'train' (of a garment').",
         "apparentMagnitude": 4.07,
         "spectralType": "F6 III",
@@ -576,7 +630,8 @@
         "left": -140,
         "top": 250
       },
-      "theta-virginis": {
+      {
+        "name": "theta-virginis",
         "description": "Theta Virginis is a spectroscopic binary star system in the constellation Virgo. It has an orbital period of about 14 years.",
         "apparentMagnitude": 4.38,
         "spectralType": "A1Vs+Am",
@@ -584,7 +639,8 @@
         "left": -45,
         "top": 215
       },
-      "spica": {
+      {
+        "name": "spica",
         "description": "Spica is the brightest star in the constellation Virgo, and the 15th birghtest star in the night sky. It is a spectroscopic binary and rotating ellipsoidal variable - a system whose two main stars are so close together they are egg-shaped rather than spherical.",
         "apparentMagnitude": 0.97,
         "spectralType": "B1 III-IV",
@@ -595,13 +651,14 @@
         "left": -70,
         "top": 270
       }
-    }
+    ]
   },
   {
     "name": "libra",
     "description": "Libra is the seventh astrological sign in the Zodiac. The symbol of the scales is based on the Scales of Justice held by Themis, the Greek personification of divine law and custom. Libra is symbolised by the gryphon, a mythological creature with the head, wings and talons of an eagle and hind legs of a lion.",
-    "stars": {
-      "zubeneschemali": {
+    "stars": [
+      {
+        "name": "zubeneschemali",
         "description": "Zubeneschemali is the brightest star in the Libra constellation. The name is derived from Arabic, and means 'the Northern Claw'.",
         "apparentMagnitude": 2.61,
         "spectralType": "B8 V",
@@ -612,7 +669,8 @@
         "left": -20,
         "top": 80
       },
-      "zubenelakrab": {
+      {
+        "name": "zubenelakrab",
         "description": "Zubenelakrab is a star in the Libra constellation. The name is derived from Arabic, and means 'the Claws of the Scorpion'. The name dates to before Libra was a distinct constellation from Scorpius.",
         "apparentMagnitude": 3.91,
         "spectralType": "K0 III",
@@ -620,7 +678,8 @@
         "left": -80,
         "top": 150
       },
-      "zubenelgenubi": {
+      {
+        "name": "zubenelgenubi",
         "description": "Zubenelgenubi is the second brightest star in the Libra constellation. The name is derived from Arabic, and means 'the Southern Claw'. The name dates to before Libra was a distinct constellation from Scorpius.",
         "apparentMagnitude": 5.153,
         "spectralType": "F3 V",
@@ -630,7 +689,8 @@
         "left": 50,
         "top": 155
       },
-      "brachium": {
+      {
+        "name": "brachium",
         "description": "Brachium is the second brightest star in the Libra constellation, and is visible to the naked eye.",
         "apparentMagnitude": 3.29,
         "spectralType": "M3/M4 III",
@@ -640,13 +700,14 @@
         "left": 0,
         "top": 270
       }
-    }
+    ]
   },
   {
     "name": "scorpio",
     "description": "Scorpio is the eighth astrological sign in the Zodiac. The symbol of the scorpion is based on Scorpius, a giant scorpion sent by Gaia to kill Orion.",
-    "stars": {
-      "jabbah": {
+    "stars": [
+      {
+        "name": "jabbah",
         "description": "Nu Scorpii is a star system in the Scorpius constellation. It is at least a quintuple star, probable a septuple, consisting of two close groups that are separated by 41 arcseconds.",
         "apparentMagnitude": 4.00,
         "spectralType": "B2IV",
@@ -654,7 +715,8 @@
         "left": 140,
         "top": 30
       },
-      "graffias": {
+      {
+        "name": "graffias",
         "description": "Beta Scorpii is a multiple star system in the zodiac constellation Scorpius. Graffias appears on the flag of Brazil, symbolising the state of Maranhão.",
         "apparentMagnitude": 2.62,
         "spectralType": "B1V",
@@ -665,7 +727,8 @@
         "left": 145,
         "top": 35
       },
-      "dschubba": {
+      {
+        "name": "dschubba",
         "description": "Delta Scorpii is a binary star in the constellation Scorpius. It was once used as a spectroscopic standard for the B0 IV classification, but is now considered too unusual and variable.",
         "apparentMagnitude": 2.307,
         "spectralType": "B0.3 IV",
@@ -676,7 +739,8 @@
         "left": 145,
         "top": 60
       },
-      "pi-scorpii": {
+      {
+        "name": "pi-scorpii",
         "description": "Pi Scorpii is a triple star system in the constellation Scorpius. It can easily be seen with the naked eye.",
         "apparentMagnitude": 2.89,
         "spectralType": "B1 V",
@@ -687,7 +751,8 @@
         "left": 140,
         "top": 90
       },
-      "rho-scorpii": {
+      {
+        "name": "rho-scorpii",
         "description": "Rho Scorpii is a binary star in the constellation Scorpius.",
         "apparentMagnitude": 3.86,
         "spectralType": "B2IV",
@@ -695,7 +760,8 @@
         "left": 130,
         "top": 120
       },
-      "alniyat": {
+      {
+        "name": "alniyat",
         "description": "Sigma Scorpii is a star system in the constellation Scorpius. Given its position, youth, and space velocity, Alniyat is a likely member of the Gould Belt.",
         "apparentMagnitude": 2.88,
         "spectralType": "B1 III",
@@ -706,7 +772,8 @@
         "left": 50,
         "top": 85
       },
-      "antares": {
+      {
+        "name": "antares",
         "description": "Antares is the fifteenth brightest star in the night sky and the brightest star in the constellation Scorpius. It is often referred to as 'the heart of the scorpion'.",
         "apparentMagnitude": 0.96,
         "spectralType": "M1.5Iab",
@@ -717,7 +784,8 @@
         "left": 30,
         "top": 100
       },
-      "epsilon-scorpii": {
+      {
+        "name": "epsilon-scorpii",
         "description": "Epsilon Scorpii is a star in the constellation Scorpius. Patrick Moore introduced the name 'Wei', but this seems to be a misreading. Wei, meaning the tail, was originally the name of a Chinese asterism comprising of a number of stars.",
         "apparentMagnitude": 2.31,
         "spectralType": "K1 III",
@@ -726,17 +794,20 @@
         "left": -10,
         "top": 160
       },
-      "mu-scorpii": {
+      {
+        "name": "mu-scorpii",
         "description": "The Bayer designation Mu Scorpii is shared by two star systems in the constellation Scorpius. They are separated by 0.1<sup>o</sup> in the sky. They are separated too by the different asterism in Chinese astronomy. In Polynesian mythology, they were <em>Piri-ere-ua</em> (meaning the 'Inseparable One'), two children which were fleeing their wicked parents",
         "left": -25,
         "top": 200
       },
-      "zeta-scorpii": {
+      {
+        "name": "zeta-scorpii",
         "description": "The Bayer designation Zeta Scorpii is shared by two stars in the constellation Scorpius. They are separated by 7 arc minutes on the sky. The stars are not physically related as they are at greatly different distances from the Earth.",
         "left": -35,
         "top": 240
       },
-      "eta-scorpii": {
+      {
+        "name": "eta-scorpii",
         "description": "Eta Scorpii is one of the brighter members of the Scorpius, and has an estimated age of 1.1 billion years. It is rotating rapidly, with a projected rotational velocity of 150 km s <sup>-1</sup>.",
         "apparentMagnitude": 3.33,
         "spectralType": "F5 IV",
@@ -747,7 +818,8 @@
         "left": -70,
         "top": 245
       },
-      "sargas": {
+      {
+        "name": "sargas",
         "description": "Theta Scorpii is a readily visible star in the Scorpius constellation, being one of the brightest in the sky. The traditional name, Sargas, is of Sumerian origin. The star appears on the flag of Brazil, symbolising the state of Alagoas.",
         "apparentMagnitude": 1.84,
         "spectralType": "F0 II",
@@ -758,12 +830,14 @@
         "left": -120,
         "top": 243
       },
-      "iota-scorpii": {
+      {
+        "name": "iota-scorpii",
         "description": "There are two stars with the Bayer designation Iota Scorpii. They are separated by 0.50<sup>o</sup> in the sky.",
         "left": -150,
         "top": 215
       },
-      "girtab": {
+      {
+        "name": "girtab",
         "description": "Kappa Scorpii has the traditional name Girtab, which is the Sumerian word for 'scorpion', and has survived through the Babylonian star catalogues.",
         "apparentMagnitude": 2.39,
         "spectralType": "B1.5 III",
@@ -773,7 +847,8 @@
         "left": -145,
         "top": 200
       },
-      "shaula": {
+      {
+        "name": "shaula",
         "description": "Shaula is a blue star and the second brightest star system in the constellation Scorpius, and one of the brightest stars in the night sky. The lame Shaula comes from Arabic, and means 'the raised tail'.",
         "apparentMagnitude": 1.62,
         "spectralType": "B2IV",
@@ -784,7 +859,8 @@
         "left": -135,
         "top": 170
       },
-      "lesath": {
+      {
+        "name": "lesath",
         "description": "Lesath is a star located in the 'stinger' of the constellation Scorpius.",
         "apparentMagnitude": 2.7,
         "spectralType": "B2IV",
@@ -795,13 +871,14 @@
         "left": -130,
         "top": 180
       }
-    }
+    ]
   },
   {
     "name": "sagittarius",
-    "description": "Sagittarius is the ninth astrological sign in the Zodiac. The symbol of the archer is based on the centaur Chiron, who mentored Achilles in archery. Sagittarius, half human and half-norse, is the centaur of mythology, the learned healer who forms a bridge between earth and Heaven. Also known as the Archer, Sagittarius is represented by the symbol of bow and arrow.",
-    "stars": {
-      "polis": {
+    "description": "Sagittarius is the ninth astrological sign in the Zodiac. The symbol of the archer is based on the centaur Chiron, who mentored Achilles in archery. Sagittarius, half human and half-horse, is the centaur of mythology, the learned healer who forms a bridge between earth and Heaven. Also known as the Archer, Sagittarius is represented by the symbol of bow and arrow.",
+    "stars": [
+      {
+        "name": "polis",
         "description": "Mu Sagittarii has the traditional name Polis, which is derived from a Coptic word meaning 'foal'.",
         "apparentMagnitude": 3.84,
         "spectralType": "B8I",
@@ -809,7 +886,8 @@
         "left": 60,
         "top": 60
       },
-      "kaus-borealis": {
+      {
+        "name": "kaus-borealis",
         "description": "Kaus Borealis marks the top of the Archer's bow in the constellation Sagittarius. It is one of the brighter members of the constellation and is readily visible to the naked eye.",
         "apparentMagnitude": 2.82,
         "spectralType": "K0 IV",
@@ -819,7 +897,8 @@
         "left": 20,
         "top": 100
       },
-      "phi-sagittarii": {
+      {
+        "name": "phi-sagittarii",
         "description": "Phi Sagittarii is the ninth brightest star in the Sagittarius constellation and is readily visible to the naked eye.",
         "apparentMagnitude": 3.17,
         "spectralType": "B8.5 III",
@@ -830,7 +909,8 @@
         "left": -20,
         "top": 115
       },
-      "nunki": {
+      {
+        "name": "nunki",
         "description": "Sigma Sagittarii iis the second brightest star in the constellation Sagittarius. Its modern name Nunki is an Assyrian or Babylonian name recovered by archaeologists.",
         "apparentMagnitude": 2.05,
         "spectralType": "B2.5 V",
@@ -841,7 +921,8 @@
         "left": -50,
         "top": 105
       },
-      "tau-sagittarii": {
+      {
+        "name": "tau-sagittarii",
         "description": "Tau Sagittarii is one of the brighter members of the constellation Sagittarius.",
         "apparentMagnitude": 3.326,
         "spectralType": "K1 III",
@@ -851,7 +932,8 @@
         "left": -90,
         "top": 130
       },
-      "ascella": {
+      {
+        "name": "ascella",
         "description": "Zeta Sagittarii is the third brightest star system in the Sagittaruis constellation. The traditional name Ascella, comes from a Late Latin word meaning armpit.",
         "apparentMagnitude": 2.59,
         "spectralType": "A2.5Va",
@@ -861,7 +943,8 @@
         "left": -80,
         "top": 160
       },
-      "kaus-media": {
+      {
+        "name": "kaus-media",
         "description": "Delta Sagittarii is a double star which is easily visible to the naked eye.",
         "apparentMagnitude": 2.7,
         "spectralType": "K3 III",
@@ -869,7 +952,8 @@
         "left": 20,
         "top": 160
       },
-      "alnasl": {
+      {
+        "name": "alnasl",
         "description": "Alnasl forms the tip of the arrow in the bow of Sagittarius the Centaur. It is the seventh brightest star in the constellation.",
         "apparentMagnitude": 2.98,
         "spectralType": "K1 III",
@@ -878,7 +962,8 @@
         "left": 50,
         "top": 180
       },
-      "kaus-australis": {
+      {
+        "name": "kaus-australis",
         "description": "Epsilon Sagittarii is a binary star, and the brightest in the Sagittarius constellation. The name Kaus Australis refers to the southern tip of the bow.",
         "apparentMagnitude": 1.85,
         "spectralType": "B9.5 III",
@@ -889,7 +974,8 @@
         "left": 5,
         "top": 210
       },
-      "sephdar": {
+      {
+        "name": "sephdar",
         "description": "Eta Sagittarii is a red giant star in the constellation Sagittarius. The name, Sephdar, comes from Arabic and means 'violent warrior'.",
         "apparentMagnitude": 3.1,
         "spectralType": "M3.5III",
@@ -899,13 +985,14 @@
         "left": 10,
         "top": 240
       }
-    }
+    ]
   },
   {
     "name": "capricorn",
     "description": "Capricorn is the tenth astrological sign in the Zodiac. Its symbol is based on the Sumerian primordial god of wisdom and waters, Enki, with the head and upper body of a mountain goat, and the lower body and tail of a fish.",
-    "stars": {
-      "daneb-algedi": {
+    "stars": [
+      {
+        "name": "daneb-algedi",
         "description": "Delta Capricorni, or Deneb Algedi, is a binary star system, and the brightest star within the constellation Capricorn.",
         "apparentMagnitude": 2.81,
         "spectralType": "A7m III",
@@ -915,7 +1002,8 @@
         "left": -130,
         "top": 90
       },
-      "nashira": {
+      {
+        "name": "nashira",
         "description": "Gamma Capricorni has the traditional name Nashira, which comes from Arabic and means 'the lucky one' or 'bearer of good news'.",
         "apparentMagnitude": 3.69,
         "spectralType": "A7mp",
@@ -924,7 +1012,8 @@
         "left": -120,
         "top": 93
       },
-      "epsilon-capricorni": {
+      {
+        "name": "epsilon-capricorni",
         "description": "Epsilon Capricorni is a triple star system in the constellation Capricorn. It also has the traditional name Castra, meaning 'fort' or 'military camp' in Latin.",
         "apparentMagnitude": 4.51,
         "spectralType": "B2.5Vpe",
@@ -932,7 +1021,8 @@
         "left": -80,
         "top": 150
       },
-      "iota-capricorni": {
+      {
+        "name": "iota-capricorni",
         "description": "Iota Capricorni is a star in the constellation Capricornus. It is a yellow G-type giant.",
         "apparentMagnitude": 4.28,
         "spectralType": "G7IIIFe",
@@ -940,7 +1030,8 @@
         "left": -75,
         "top": 93
       },
-      "zeta-capricorni": {
+      {
+        "name": "zeta-capricorni",
         "description": "Zeta Capricorni is a binary star in the constellation Capricornus. It is considered one of the protypical examples of a Barium star.",
         "apparentMagnitude": 3.77,
         "spectralType": "G8III",
@@ -948,7 +1039,8 @@
         "left": -80,
         "top": 160
       },
-      "dorsum": {
+      {
+        "name": "dorsum",
         "description": "Theta Capricorni is a white A-type main sequence dwarf star in the constellation Capricornus. Its traditional name, Dorsum, comes from Latin and means 'the back of the goat'.",
         "apparentMagnitude": 4.08,
         "spectralType": "A1V",
@@ -956,7 +1048,8 @@
         "left": -15,
         "top": 97
       },
-      "eta-capricorni": {
+      {
+        "name": "eta-capricorni",
         "description": "Eta Capricorni is a binary star in the constellation Capricornus.",
         "apparentMagnitude": 4.82,
         "spectralType": "A4V",
@@ -964,7 +1057,8 @@
         "left": -10,
         "top": 130
       },
-      "baten-algiedi": {
+      {
+        "name": "baten-algiedi",
         "description": "Omega Capricorni is a star in the constellation Capricornus with the traditional but seldom used name Baten Algiedi, which is Arabic for 'belly of the goat'.",
         "apparentMagnitude": 4.12,
         "spectralType": "M0-III-IIlBa0.2",
@@ -972,7 +1066,8 @@
         "left": 30,
         "top": 230
       },
-      "psi-capricorni": {
+      {
+        "name": "psi-capricorni",
         "description": "Psi Capricorni is a yellow-white F-type main sequence dwarf star in the constellation Capricornus.",
         "apparentMagnitude": 4.13,
         "spectralType": "F5 V",
@@ -980,7 +1075,8 @@
         "left": 40,
         "top": 210
       },
-      "rho-capricorni": {
+      {
+        "name": "rho-capricorni",
         "description": "Rho Capricorni is a binary star in the constellation Capricornus. Sometimes, this star is called by the name Bos, meaning 'the cow' in Latin.",
         "apparentMagnitude": 4.73,
         "spectralType": "F2 IV",
@@ -988,7 +1084,8 @@
         "left": 80,
         "top": 110
       },
-      "dabih": {
+      {
+        "name": "dabih",
         "description": "Beta Capricorni has the traditional name Dabih, meaning 'the butcher' in Arabic. It is a double star.",
         "apparentMagnitude": 3.05,
         "spectralType": "K0II",
@@ -996,7 +1093,8 @@
         "left": 100,
         "top": 80
       },
-      "algiedi": {
+      {
+        "name": "algiedi",
         "description": "Alpha Capricorni is an optical double star in the constellation Capricornus. The name Algiedi is derived from Arabic and means 'the billy goat' or 'the kid', and also refers to the entire constellation of Capricornus.",
         "apparentMagnitude": 4.27,
         "spectralType": "G3lb",
@@ -1007,13 +1105,14 @@
         "left": 105,
         "top": 60
       }
-    }
+    ]
   },
   {
     "name": "aquarius",
-    "description": "Aquarius is the eleventh astrological sign in the Zodiac. The water carrier represented by the zodiacal constellation Aquarius is Ganymede, a beautiful Phrygian youth. Ganymede was the son of Tros, king of Troy. While tending to his father's flocks on Mount Ida, Ganymede was spotted by Jupiter. The king of gods became enamored of the boy and flew doen to the mountain in the form of a large bird, whisking Ganymede away to the heavens. Ever since, the boy has served as cupbearer to the gods.",
-    "stars": {
-      "phi-aquarii": {
+    "description": "Aquarius is the eleventh astrological sign in the Zodiac. The water carrier represented by the zodiacal constellation Aquarius is Ganymede, a beautiful Phrygian youth. Ganymede was the son of Tros, king of Troy. While tending to his father's flocks on Mount Ida, Ganymede was spotted by Jupiter. The king of gods became enamored of the boy and flew down to the mountain in the form of a large bird, whisking Ganymede away to the heavens. Ever since, the boy has served as cupbearer to the gods.",
+    "stars": [
+      {
+        "name": "phi-aquarii",
         "description": "Phi Aquarii is a spectroscopic binary star system in the constellation Aquarius.",
         "apparentMagnitude": 4.223,
         "spectralType": "M1.5 III",
@@ -1023,7 +1122,8 @@
         "left": -100,
         "top": 190
       },
-      "lambda-aquarii": {
+      {
+        "name": "lambda-aquarii",
         "description": "Lambda Aquarii has the obscure traditional names Hydor and Ekkhysis, from the ancient Greek words for 'water' and 'outpouring'.",
         "apparentMagnitude": 3.722,
         "spectralType": "M2.5 IIIa",
@@ -1033,7 +1133,8 @@
         "left": -70,
         "top": 185
       },
-      "eta-aquarii": {
+      {
+        "name": "eta-aquarii",
         "description": "Eta Aquarii is a star in the Aquarius constellation which is visible to the naked eye.",
         "apparentMagnitude": 4.04,
         "spectralType": "B9IV-Vn",
@@ -1042,7 +1143,8 @@
         "left": -70,
         "top": 120
       },
-      "sadaltager": {
+      {
+        "name": "sadaltager",
         "description": "Zeta Aquarii is a binary star, or possible a triple star system with the traditional name Sadaltager, meaning 'luck of the merchant' in Arabic. It is the central star of the 'water jar' asterism.",
         "apparentMagnitude": 3.65,
         "spectralType": "F3 V",
@@ -1051,7 +1153,8 @@
         "left": -65,
         "top": 110
       },
-      "delta-aquarii": {
+      {
+        "name": "delta-aquarii",
         "description": "Delta Aquarii is the third-brightest star in the constellation Aquarius. It has the traditional name Skat, which has also been used for Beta Pegasi.",
         "apparentMagnitude": 3.3,
         "spectralType": "A3 V",
@@ -1062,7 +1165,8 @@
         "left": -70,
         "top": 300
       },
-      "pi-aquarii": {
+      {
+        "name": "pi-aquarii",
         "description": "Pi Aquarii is a binary star in the constellation of Aqaurius. It shares the traditional name Seat with Delta Aquarii.",
         "apparentMagnitude": 4.66,
         "spectralType": "B1 Ve",
@@ -1073,7 +1177,8 @@
         "left": -75,
         "top": 95
       },
-      "sadachbia": {
+      {
+        "name": "sadachbia",
         "description": "Gamma Aquarii has the traditional name Sadachbia, which comes from an Arabic expression meaning 'luck of the homes (tents)'. It is one of the brighter members of the constellation.",
         "apparentMagnitude": 3.849,
         "spectralType": "A0 V",
@@ -1082,7 +1187,8 @@
         "left": -60,
         "top": 90
       },
-      "sadalmelik": {
+      {
+        "name": "sadalmelik",
         "description": "Alpha Aquarii is a single star in the Aquarius. It has the traditional name Sadalmelik, which is derived from Arabic for 'luck of the king'. It is the second brightest star in Aquarius.",
         "apparentMagnitude": 2.942,
         "spectralType": "G2 lb",
@@ -1093,7 +1199,8 @@
         "left": -30,
         "top": 90
       },
-      "theta-aquarii": {
+      {
+        "name": "theta-aquarii",
         "description": "Theta Aquarii is a star in Aquarius which is visible to the naked eye. It has the traditional name Ancha, which is medieval Latin for 'the haunch'.",
         "apparentMagnitude": 4.175,
         "spectralType": "G8 III-IV",
@@ -1104,7 +1211,8 @@
         "left": -30,
         "top": 165
       },
-      "iota-aquarii": {
+      {
+        "name": "iota-aquarii",
         "description": "Iota Aquarii is a star in Aquarius which is visible to the naked eye.",
         "apparentMagnitude": 4.279,
         "spectralType": "B8 V",
@@ -1113,7 +1221,8 @@
         "left": 0,
         "top": 210
       },
-      "sadalsuud": {
+      {
+        "name": "sadalsuud",
         "description": "Beta Aquarii is a double star, and the brightest in Aquarius. The traditional name Sadalsuud comes from an Arabic expression and means 'luck of lucks'.",
         "apparentMagnitude": 2.87,
         "spectralType": "G0 lb",
@@ -1124,7 +1233,8 @@
         "left": 60,
         "top": 120
       },
-      "epsilon-aquarii": {
+      {
+        "name": "epsilon-aquarii",
         "description": "Epsilon Aquarii is a visible star in the Aquarius constellation, with the traditional name Albali, which means 'the swallower' in Arabic.",
         "apparentMagnitude": 3.77,
         "spectralType": "A1 V",
@@ -1133,13 +1243,14 @@
         "left": 130,
         "top": 130
       }
-    }
+    ]
   },
   {
     "name": "pisces",
     "description": "Pisces is the twelfth astrological sign in the Zodiac. The symbol of the fish is derived from the ichthyocentaurs, who aided Aphrodite when she was born from the sea.",
-    "stars": {
-      "tau-piscium": {
+    "stars": [
+      {
+        "name": "tau-piscium",
         "description": "Tau Piscium is an orange K-type giant in the Pisces constellation.",
         "apparentMagnitude": 4.51,
         "spectralType": "K0III-IV",
@@ -1147,7 +1258,8 @@
         "left": -50,
         "top": 90
       },
-      "upsilon-piscium": {
+      {
+        "name": "upsilon-piscium",
         "description": "Upsilon Piscium is a bluish-white star in the Pisces constellation.",
         "apparentMagnitude": 4.752,
         "spectralType": "A3V",
@@ -1157,7 +1269,8 @@
         "left": -65,
         "top": 110
       },
-      "phi-piscium": {
+      {
+        "name": "phi-piscium",
         "description": "Phi Piscium is a binary star system in the Pisces constellation.",
         "apparentMagnitude": 4.676,
         "spectralType": "K0III",
@@ -1166,7 +1279,8 @@
         "left": -50,
         "top": 120
       },
-      "psi-piscium": {
+      {
+        "name": "psi-piscium",
         "description": "Psi Piscium is a binary star system in the Pisces constellation.",
         "apparentMagnitude": 5.33,
         "spectralType": "A1Vn",
@@ -1174,7 +1288,8 @@
         "left": -40,
         "top": 135
       },
-      "kullat-nunu": {
+      {
+        "name": "kullat-nunu",
         "description": "Eta Piscium is the brightest star in the constellation Pisces. The star's obscure traditional name of Kullat Nunu comes from Babulonian, meaning a bucket of fish.",
         "apparentMagnitude": 3.62,
         "spectralType": "G7IIIa",
@@ -1182,7 +1297,8 @@
         "left": -55,
         "top": 190
       },
-      "omicron-piscium": {
+      {
+        "name": "omicron-piscium",
         "description": "Omicron Piscium is a star in the Pisces constellation. It has the traditional name of Torcularis Septentrionalis.",
         "apparentMagnitude": 4.26,
         "spectralType": "G8III",
@@ -1190,7 +1306,8 @@
         "left": -70,
         "top": 240
       },
-      "alrescha": {
+      {
+        "name": "alrescha",
         "description": "Alpha Piscium is a double star in the Pisces constellation. The two stars take more than 700 years to orbit one another. The traditional name Alrescha comes from Arabic and means 'the well rope'.",
         "apparentMagnitude": 3.82,
         "spectralType": "A0pSiSr",
@@ -1199,7 +1316,8 @@
         "left": -100,
         "top": 270
       },
-      "nu-piscium": {
+      {
+        "name": "nu-piscium",
         "description": "Nu Piscium is an orange giant star in the constellation Pisces.",
         "apparentMagnitude": 4.448,
         "spectralType": "K3IIIlb",
@@ -1208,7 +1326,8 @@
         "left": -70,
         "top": 260
       },
-      "epsilon-piscium": {
+      {
+        "name": "epsilon-piscium",
         "description": "Nu Piscium is an orange giant star in the constellation Pisces.",
         "apparentMagnitude": 4.448,
         "spectralType": "K0 III",
@@ -1217,7 +1336,8 @@
         "left": -10,
         "top": 230
       },
-      "delta-piscium": {
+      {
+        "name": "delta-piscium",
         "description": "Delta Piscium is a binary star in the constellation Pisces.",
         "apparentMagnitude": 4.43,
         "spectralType": "K5III",
@@ -1225,7 +1345,8 @@
         "left": 0,
         "top": 231
       },
-      "omega-piscium": {
+      {
+        "name": "omega-piscium",
         "description": "Omega Piscium is a subgiant/dwarf star in the Pisces constellation.",
         "apparentMagnitude": 4.036,
         "spectralType": "F4IV",
@@ -1234,7 +1355,8 @@
         "left": 50,
         "top": 220
       },
-      "iota-piscium": {
+      {
+        "name": "iota-piscium",
         "description": "Iota Piscium is an F-type main sequence star in the constellation Pisces. Though it is somewhat larger and brighter than the Sun, it is still within the range considered to have the potential for Earth-like planets.",
         "apparentMagnitude": 4.13,
         "spectralType": "F7 V",
@@ -1244,7 +1366,8 @@
         "left": 70,
         "top": 215
       },
-      "theta-piscium": {
+      {
+        "name": "theta-piscium",
         "description": "Theta Piscium is an orange-red giant star in the Pisces constellation. It is brighter, yet cooler than our sun.",
         "apparentMagnitude": 4.27,
         "spectralType": "K1 III",
@@ -1254,7 +1377,8 @@
         "left": 80,
         "top": 205
       },
-      "gamma-piscium": {
+      {
+        "name": "gamma-piscium",
         "description": "Gamma Piscium is a yellow giant star in the Pisces constellation. It is the second brightest star in the constellation.",
         "apparentMagnitude": 3.699,
         "spectralType": "G9 III",
@@ -1264,7 +1388,8 @@
         "left": 100,
         "top": 210
       },
-      "kappa-piscium": {
+      {
+        "name": "kappa-piscium",
         "description": "Kappa Piscium is a multiple star in the constellation Pisces.",
         "apparentMagnitude": 4.927,
         "spectralType": "A0pCrSrSi",
@@ -1272,7 +1397,8 @@
         "left": 90,
         "top": 230
       },
-      "lambda-piscium": {
+      {
+        "name": "lambda-piscium",
         "description": "Lambda Piscium is a bluish white star which forms the southeast corner of the 'Circlet' in Pisces.",
         "apparentMagnitude": 4.49,
         "spectralType": "A7V",
@@ -1283,6 +1409,6 @@
         "left": 55,
         "top": 235
       }
-    }
+    ]
   }
 ]
