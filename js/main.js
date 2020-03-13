@@ -1,7 +1,7 @@
 // TODO refactor to remove jQuery
 $(document).on("click", "#exit", function () {
-  $(this).parent().html('');
-  $(this).parent().fadeOut();
+  $('#starinfo').fadeOut(1500);
+  $('#starinfo').html('');
 });
 
 
@@ -25,6 +25,8 @@ document.addEventListener('DOMContentLoaded', function() {
         constellationEl.appendChild(starEl);
 
         starEl.onclick = function () {
+          // TODO: refactor away from jQuery
+          $('#starinfo').html('');
           const starInfoContainer = document.getElementById('starinfo');
 
           const exitEl = document.createElement('div');
@@ -111,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
           // TODO refactor to remove jQuery
           // starInfoContainer.style.display = 'block';
-          $("#starinfo").show(2000);
+          $("#starinfo").show(1500);
         }
 
       });
@@ -133,7 +135,30 @@ document.addEventListener('DOMContentLoaded', function() {
       documentContainer.appendChild(constellationContainerEl);
     })
   });
-})
+
+  // TODO: refactor and make this a thenable - it's prepending before all the other constellations atm
+  const auroraContainer = document.createElement('a');
+  auroraContainer.setAttribute('href', 'aurora.html');
+
+  const auroraContent = document.createElement('div');
+  auroraContent.id = 'aurora';
+
+  const auroraHeading = document.createElement('h2');
+  auroraHeading.appendChild(document.createTextNode('Aurora'));
+
+  const auroraDesc = document.createElement('p');
+  auroraDesc.appendChild(document.createTextNode(`
+    The Aurora is a natural light display in the sky, predominantly seen in the high latitude regions. They are red, green and occasionally blue, and can sometimes resemble fire.<br><br>
+    Once, the Roman Emperor Tiberius thought a city was on fire, and sent firefighters to that city. The city on fire was actually a city against a backdrop of a red aurora.<br><br>
+    Auroras occur when solar winds hit the Earth at polar areas where the Earth's magnetic field is less powerful. When the particles from the solar wind hit the particles in the Earth's atmosphere, the atmosphere is heated and excited and the excess energy gets away. The result of this interaction is a stunning display of light in the night sky.<br><br>
+  `));
+
+  auroraContent.appendChild(auroraHeading);
+  auroraContent.appendChild(auroraDesc);
+  auroraContainer.appendChild(auroraContent);
+
+  documentContainer.appendChild(auroraContainer);
+});
 
 function loadJSON(url, callback) {
   const request = new XMLHttpRequest();
